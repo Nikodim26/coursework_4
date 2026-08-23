@@ -7,15 +7,16 @@ from working_with_files import Working_With_Files
 
 logger = logging.getLogger(__name__)
 
+
 class Write_File(Working_With_Files):
     """Класс для объекта, записывающего информацию о самолетах в файл"""
 
-    def __init__(self, file: str, data: list)->None:
+    def __init__(self, file: str, data: list) -> None:
         super().__init__(file, data)
         self.path = Path(__file__).resolve().parent.parent / "data" / file
         self.data = data
 
-    def write_file(self)->None:
+    def write_file(self) -> None:
         """Производит запись о самолетах в файл"""
         aeroplanes_list = []
 
@@ -24,11 +25,12 @@ class Write_File(Working_With_Files):
                 aeroplane = Airplane(dt[0], dt[2], dt[9], dt[13])
 
                 aeroplanes_list.append(
-                    {"ICAO24": aeroplane.ICAO24,
-                     "Country": aeroplane.Country_of_registration,
-                     "Velocity": aeroplane.velocity,
-                     "Altitude": aeroplane.geo_altitude
-                     }
+                    {
+                        "ICAO24": aeroplane.ICAO24,
+                        "Country": aeroplane.Country_of_registration,
+                        "Velocity": aeroplane.velocity,
+                        "Altitude": aeroplane.geo_altitude,
+                    }
                 )
                 with open(self.path, "w", encoding="utf-8") as f:
                     json.dump(aeroplanes_list, f, indent=4, ensure_ascii=False)
@@ -36,10 +38,10 @@ class Write_File(Working_With_Files):
             except Exception as e:
                 logger.error(e)
 
-        logger.info(f'Создана запись данных самолетов в заданном "квадрате" в файл')
+        logger.info('Создана запись данных самолетов в заданном "квадрате" в файл')
 
-    def write_file_add(self, *args):
+    def write_file_add(self) -> None:
         pass
 
-    def get_by_criterion(self, *args):
+    def get_by_criterion(self) -> None:
         pass

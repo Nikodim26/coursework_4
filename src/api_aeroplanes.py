@@ -17,7 +17,7 @@ class Api_Aeroplanes(APIAdapter):
         self.url = "https://opensky-network.org/api/states/all?"
         self.list_info = self.obtaining_information()
 
-    def obtaining_information(self) -> list[Any] | None:
+    def obtaining_information(self) -> Any:
         """Получение информации о самолетах в координатах страны"""
 
         try:
@@ -25,9 +25,10 @@ class Api_Aeroplanes(APIAdapter):
                 logger.info(f"Делаю запрос - {i + 1} попытка")
                 response = get(url=self.url, params=self.coordinates)
                 if str(response.status_code)[0] == "2":
-
                     logger.info(f"Ответ получен: код {response.status_code}")
-                    return response.json()["states"]
+                    break
+
+            return response.json()["states"]
 
         except Exception as e:
             logger.error(e)

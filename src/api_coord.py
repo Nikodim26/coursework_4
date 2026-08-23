@@ -11,13 +11,13 @@ logger = logging.getLogger(__name__)
 class Api_Coord(APIAdapter):
     """Класс объекта, отвечающего за получение координат "квадрата" определенной страны"""
 
-    def __init__(self, country: str):
+    def __init__(self, country: str) -> None:
         super().__init__()
         self.url = "https://nominatim.openstreetmap.org/search"
         self.country = country
         self.coordinates = self.obtaining_information()
 
-    def obtaining_information(self) -> None | dict[str, Any] | dict[Any, Any]:
+    def obtaining_information(self) -> Any:
         """Получает из api-ресурса координаты "квадрата" определенной страны"""
 
         headers_nominatim = {"User-Agent": "test-app/1.0"}
@@ -37,7 +37,7 @@ class Api_Coord(APIAdapter):
                         "lomin": geo_coordinates[2],
                         "lomax": geo_coordinates[3],
                     }
-                    logger.info(f'Получены координаты "квадрата" поиска самолетов')
+                    logger.info('Получены координаты "квадрата" поиска самолетов')
                     return result
 
         except Exception as e:
