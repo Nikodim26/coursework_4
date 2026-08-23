@@ -28,13 +28,14 @@ class Receipt_by_Criterion(Working_With_Files):
                     result = sorted(result, key=lambda x: x['Velocity'], reverse=True)[:int(criterion[1])]
 
                 if criterion[2] != "All":
-                    result = [dt for dt in result if dt["Altitude"] <= int(criterion[2])]
+                    result = [dt for dt in result if
+                              dt["Altitude"] <= int(criterion[2]) and dt['Velocity'] <= int(criterion[2])]
 
-            return result
+                return result
 
         except Exception as e:
             logger.error(e)
-            return []
+        return []
 
     def write_file(self):
         pass

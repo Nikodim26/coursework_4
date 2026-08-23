@@ -1,3 +1,6 @@
+import json
+
+
 class Airplane():
     """Класс для создания объекта - самолета"""
 
@@ -18,9 +21,10 @@ class Airplane():
         return self.velocity > other.velocity and self.geo_altitude > other.geo_altitude
 
     def __str__(self):
-        return {
-            "ICAO24": self.ICAO24,
-            "Country": self.Country_of_registration,
-            "Velocity": self.velocity,
-            "Altitude": self.geo_altitude
-        }
+        return json.dumps(
+            {
+                "ICAO24": self.ICAO24,
+                "Country": self.Country_of_registration,
+                "Velocity": self.velocity,
+                "Altitude": self.geo_altitude
+            }, indent=4)
