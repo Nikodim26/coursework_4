@@ -8,14 +8,15 @@ from working_with_files import Working_With_Files
 logger = logging.getLogger(__name__)
 
 class Write_File(Working_With_Files):
-    """Класс для объекта, обрабатывающего информацию о самолетах"""
+    """Класс для объекта, записывающего информацию о самолетах в файл"""
 
-    def __init__(self, file: str, data: list):
+    def __init__(self, file: str, data: list)->None:
         super().__init__(file, data)
         self.path = Path(__file__).resolve().parent.parent / "data" / file
         self.data = data
 
-    def write_file(self):
+    def write_file(self)->None:
+        """Производит запись о самолетах в файл"""
         aeroplanes_list = []
 
         for dt in self.data:
@@ -32,10 +33,13 @@ class Write_File(Working_With_Files):
                 with open(self.path, "w", encoding="utf-8") as f:
                     json.dump(aeroplanes_list, f, indent=4, ensure_ascii=False)
 
-                logger.info(f'Создана запись данных самолетов в заданном "квадрате" в файл')
-
             except Exception as e:
                 logger.error(e)
 
+        logger.info(f'Создана запись данных самолетов в заданном "квадрате" в файл')
+
     def write_file_add(self, *args):
+        pass
+
+    def get_by_criterion(self, *args):
         pass

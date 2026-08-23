@@ -1,5 +1,4 @@
 from abc import ABC, abstractmethod
-from pathlib import Path
 
 
 class Working_With_Files(ABC):
@@ -13,5 +12,9 @@ class Working_With_Files(ABC):
         pass
 
     @abstractmethod
-    def write_file_add(self,*args):
+    def write_file_add(self, *args):
+        pass
+
+    @abstractmethod
+    def get_by_criterion(self, *args):
         pass

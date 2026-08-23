@@ -1,8 +1,3 @@
-import logging
-
-logger = logging.getLogger(__name__)
-
-
 class Airplane():
     """Класс для создания объекта - самолета"""
 
@@ -17,7 +12,15 @@ class Airplane():
                 self.velocity == 0 and self.geo_altitude != 0) or ICAO24 is None or Country_of_registration is None:
             raise ValueError('Недопустимые значения')
 
-    def __gt__(self, other):
+    def __gt__(self, other) -> bool:
         """Определяет какой самолет выше и быстрее летит"""
 
         return self.velocity > other.velocity and self.geo_altitude > other.geo_altitude
+
+    def __str__(self):
+        return {
+            "ICAO24": self.ICAO24,
+            "Country": self.Country_of_registration,
+            "Velocity": self.velocity,
+            "Altitude": self.geo_altitude
+        }
