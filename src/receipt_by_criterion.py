@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 class Receipt_by_Criterion(Working_With_Files):
     """Класс для объекта, извлекающего информацию по самолетам из файла согласно критериям поиска"""
 
-    def __init__(self, file: str, data: list) -> None:
+    def __init__(self, file: str, data: list=None) -> None:
         super().__init__(file, data)
         self.path = Path(__file__).resolve().parent.parent / "data" / file
 

@@ -11,11 +11,11 @@ logger = logging.getLogger(__name__)
 class Adding_Plane(Working_With_Files):
     """Класс для объекта, добавляющего информацию о новом самолете"""
 
-    def __init__(self, file: str, data: list) -> None:
+    def __init__(self, file: str, data: list=None) -> None:
         super().__init__(file, data)
         self.path = Path(__file__).resolve().parent.parent / "data" / file
 
-    def write_file_add(self, *args: dict) -> None:
+    def write_file_add(self, args: list) -> None:
         """Добавляет информацию о новом самолете в файл"""
 
         try:
@@ -38,6 +38,8 @@ class Adding_Plane(Working_With_Files):
                 json.dump(data, f, indent=4, ensure_ascii=False)
 
             logger.info("Добавлена информация о новом самолете в файл")
+            print("Добавлена информация о новом самолете\n")
+
         except ValueError as e:
             print(e)
 

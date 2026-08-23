@@ -2,6 +2,7 @@ import json
 import logging
 from pathlib import Path
 
+from adding_a_plane import Adding_Plane
 from airplane import Airplane
 from api_aeroplanes import Api_Aeroplanes
 from api_coord import Api_Coord
@@ -36,6 +37,7 @@ def working_with_the_user() -> None:
     write_file = Write_File("aeroplanes.json", api_aeroplanes)
     write_file.write_file()
     logger.info("Добавлена информация о самолетах в файл")
+    print("Добавлена информация о самолетах в файл")
 
     receipt_by_criterion = Receipt_by_Criterion("aeroplanes.json")
     criterion = []
@@ -52,24 +54,45 @@ def working_with_the_user() -> None:
         aeroplanes = receipt_by_criterion.get_by_criterion(criterion)
         if aeroplanes:
             print(json.dumps(aeroplanes, indent=4))
+            print()
             break
         print("Нет сведений")
 
-    # Выявление рекордсмена по высоте и скорости
-    aeroplane_max = Airplane(" ", " ", 0, 0)
-    aeroplanes_data = receipt_by_criterion.get_by_criterion(["All", "All", "All", "All"])
+def additional_information():
 
-    for dt in aeroplanes_data:
-        aeroplane = Airplane(dt["ICAO24"], dt["Country"], dt["Velocity"], dt["Altitude"])
-        if aeroplane > aeroplane_max:
-            aeroplane_max = aeroplane
+    receipt_by_criterion = Receipt_by_Criterion("aeroplanes.json")
 
-    print("Самый быстрый и высоколетящий самолет")
-    print(aeroplane_max)
+    response = input('Хотите добавить свой самолет в общий список (да/нет)? [ДА]')
+    print()
+    if response == "" or response.lower() == 'да':
+        number = input('Введите уникальный идентификатор борта ')
+        country = input('Введите страну регистрации на латинице ')
+        velocity = float(input('Введите скорость, м/с '))
+        altitude = float(input('Введите высоту полета над уровнем моря, м '))
 
-    print("Самолеты на земле")
-    print(json.dumps(receipt_by_criterion.get_by_criterion(["All", "All", 0, 0]), indent=4))
+        adding_plane = Adding_Plane("aeroplanes.json")
+        adding_plane.write_file_add([number, country, velocity, altitude])
+
+    response = input('Показать наиболее быстрый и высоколетящий самолет (да/нет)? [ДА]')
+    if response == "" or response.lower() == 'да':
+        # Выявление рекордсмена по высоте и скорости
+        aeroplane_max = Airplane(" ", " ", 0, 0)
+        aeroplanes_data = receipt_by_criterion.get_by_criterion(["All", "All", "All", "All"])
+
+        for dt in aeroplanes_data:
+            aeroplane = Airplane(dt["ICAO24"], dt["Country"], dt["Velocity"], dt["Altitude"])
+            if aeroplane > aeroplane_max:
+                aeroplane_max = aeroplane
+
+        print("Самый быстрый и высоколетящий самолет")
+        print(aeroplane_max)
+
+    response = input('Показать самолеты на земле (да/нет)? [ДА]')
+    if response == "" or response.lower() == 'да':
+        print("Самолеты на земле")
+        print(json.dumps(receipt_by_criterion.get_by_criterion(["All", "All", 0, 0]), indent=4))
 
 
 if __name__ == "__main__":
     working_with_the_user()
+    additional_information()
