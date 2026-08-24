@@ -1,7 +1,6 @@
 import json
 import logging
 from pathlib import Path
-from typing import Any
 
 from src.airplane import Airplane
 from src.working_with_files import Working_With_Files

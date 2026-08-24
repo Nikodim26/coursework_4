@@ -39,7 +39,7 @@ def working_with_the_user() -> None:
     logger.info("Добавлена информация о самолетах в файл")
     print("Добавлена информация о самолетах в файл")
 
-    receipt_by_criterion = Receipt_by_Criterion("aeroplanes.json")
+    receipt_by_criterion = Receipt_by_Criterion("aeroplanes.json", [])
     criterion = []
     while True:
         country = input("Самолеты какой страны показать (все/страна)? [ВСЕ]: ")
@@ -58,20 +58,19 @@ def working_with_the_user() -> None:
             break
         print("Нет сведений")
 
-def additional_information():
 
-    receipt_by_criterion = Receipt_by_Criterion("aeroplanes.json")
+def additional_information():
+    receipt_by_criterion = Receipt_by_Criterion("aeroplanes.json", [])
 
     response = input('Хотите добавить свой самолет в общий список (да/нет)? [ДА]')
     print()
     if response == "" or response.lower() == 'да':
-        number = input('Введите уникальный идентификатор борта ')
-        country = input('Введите страну регистрации на латинице ')
-        velocity = float(input('Введите скорость, м/с '))
-        altitude = float(input('Введите высоту полета над уровнем моря, м '))
+        characteristics = input('Введите данные через запятую (номер,страна,скорость м/с,высота м): ').split(',')
+        characteristics[2] = float(characteristics[2])
+        characteristics[3] = float(characteristics[3])
 
-        adding_plane = Adding_Plane("aeroplanes.json")
-        adding_plane.write_file_add([number, country, velocity, altitude])
+        adding_plane = Adding_Plane("aeroplanes.json", [])
+        adding_plane.write_file_add(characteristics)
 
     response = input('Показать наиболее быстрый и высоколетящий самолет (да/нет)? [ДА]')
     if response == "" or response.lower() == 'да':

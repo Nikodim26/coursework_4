@@ -4432,11 +4432,5 @@
         "Country": "Denmark",
         "Velocity": 227.71,
         "Altitude": 12176.76
-    },
-    {
-        "ICAO24": "вавав",
-        "Country": "вавав",
-        "Velocity": 200.0,
-        "Altitude": 1000.0
     }
 ]
