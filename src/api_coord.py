@@ -43,18 +43,3 @@ class Api_Coord(APIAdapter):
         except Exception as e:
             logger.error(e)
             return {}
-
-
-    def aaa(self) -> Any:
-
-        headers_nominatim = {"User-Agent": "test-app/1.0"}
-        params_nominatim = {"country": self.country, "format": "json", "limit": 1}
-
-        response = requests.get(url=self.url, params=params_nominatim, headers=headers_nominatim)
-        if str(response.status_code)[0] == "2":
-            geo_coordinates = response.json()
-            # a=[0].get("boundingbox")
-            return geo_coordinates
-
-a=Api_Coord('Germany')
-a.aaa()

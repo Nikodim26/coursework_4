@@ -26,9 +26,7 @@ class Api_Aeroplanes(APIAdapter):
                 response = requests.get(url=self.url, params=self.coordinates)
                 if str(response.status_code)[0] == "2":
                     logger.info(f"Ответ получен: код {response.status_code}")
-                    break
-
-            return response.json()["states"]
+                    return response.json()["states"]
 
         except Exception as e:
             logger.error(e)
