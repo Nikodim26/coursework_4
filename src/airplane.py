@@ -34,3 +34,6 @@ class Airplane:
             },
             indent=4,
         )
+
+airplane = Airplane('a', 'b', 1, 2)
+print(airplane)
