@@ -3,7 +3,7 @@ from typing import Any
 
 import requests
 
-from api_adapter import APIAdapter
+from src.api_adapter import APIAdapter
 
 logger = logging.getLogger(__name__)
 

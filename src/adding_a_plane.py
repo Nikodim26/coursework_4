@@ -1,9 +1,10 @@
 import json
 import logging
 from pathlib import Path
+from typing import Any
 
-from airplane import Airplane
-from working_with_files import Working_With_Files
+from src.airplane import Airplane
+from src.working_with_files import Working_With_Files
 
 logger = logging.getLogger(__name__)
 
@@ -11,7 +12,7 @@ logger = logging.getLogger(__name__)
 class Adding_Plane(Working_With_Files):
     """Класс для объекта, добавляющего информацию о новом самолете"""
 
-    def __init__(self, file: str, data: list=None) -> None:
+    def __init__(self, file: str, data: list) -> None:
         super().__init__(file, data)
         self.path = Path(__file__).resolve().parent.parent / "data" / file
 

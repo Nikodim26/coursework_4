@@ -2,8 +2,8 @@ import json
 import logging
 from pathlib import Path
 
-from airplane import Airplane
-from working_with_files import Working_With_Files
+from src.airplane import Airplane
+from src.working_with_files import Working_With_Files
 
 logger = logging.getLogger(__name__)
 

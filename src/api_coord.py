@@ -3,7 +3,7 @@ from typing import Any
 
 import requests
 
-from api_adapter import APIAdapter
+from src.api_adapter import APIAdapter
 
 logger = logging.getLogger(__name__)
 
@@ -29,8 +29,7 @@ class Api_Coord(APIAdapter):
                 response = requests.get(url=self.url, params=params_nominatim, headers=headers_nominatim)
                 if str(response.status_code)[0] == "2":
                     logger.info(f"Ответ получен: код {response.status_code}")
-                    geo_coordinates = response.json()
-                    # [0].get("boundingbox")
+                    geo_coordinates = response.json()[0].get("boundingbox")
 
                     result = {
                         "lamin": geo_coordinates[0],

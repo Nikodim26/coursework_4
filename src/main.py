@@ -2,13 +2,13 @@ import json
 import logging
 from pathlib import Path
 
-from adding_a_plane import Adding_Plane
-from airplane import Airplane
-from api_aeroplanes import Api_Aeroplanes
-from api_coord import Api_Coord
-from interpreter import translate_text
-from receipt_by_criterion import Receipt_by_Criterion
-from write_file import Write_File
+from src.adding_a_plane import Adding_Plane
+from src.airplane import Airplane
+from src.api_aeroplanes import Api_Aeroplanes
+from src.api_coord import Api_Coord
+from src.interpreter import translate_text
+from src.receipt_by_criterion import Receipt_by_Criterion
+from src.write_file import Write_File
 
 log_path = Path(__file__).resolve().parent.parent / "logs" / "main.log"
 logging.basicConfig(
