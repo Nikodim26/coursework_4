@@ -1,7 +1,7 @@
 import logging
 from typing import Any
 
-from requests import get
+import requests
 
 from api_adapter import APIAdapter
 
@@ -26,10 +26,11 @@ class Api_Coord(APIAdapter):
         try:
             for i in range(3):
                 logger.info(f"Делаю запрос - {i + 1} попытка")
-                response = get(url=self.url, params=params_nominatim, headers=headers_nominatim)
+                response = requests.get(url=self.url, params=params_nominatim, headers=headers_nominatim)
                 if str(response.status_code)[0] == "2":
                     logger.info(f"Ответ получен: код {response.status_code}")
-                    geo_coordinates = response.json()[0].get("boundingbox")
+                    geo_coordinates = response.json()
+                    # [0].get("boundingbox")
 
                     result = {
                         "lamin": geo_coordinates[0],
@@ -43,3 +44,18 @@ class Api_Coord(APIAdapter):
         except Exception as e:
             logger.error(e)
             return {}
+
+
+    def aaa(self) -> Any:
+
+        headers_nominatim = {"User-Agent": "test-app/1.0"}
+        params_nominatim = {"country": self.country, "format": "json", "limit": 1}
+
+        response = requests.get(url=self.url, params=params_nominatim, headers=headers_nominatim)
+        if str(response.status_code)[0] == "2":
+            geo_coordinates = response.json()
+            # a=[0].get("boundingbox")
+            return geo_coordinates
+
+a=Api_Coord('Germany')
+a.aaa()

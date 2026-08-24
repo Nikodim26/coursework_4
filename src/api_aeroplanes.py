@@ -1,7 +1,7 @@
 import logging
 from typing import Any
 
-from requests import get
+import requests
 
 from api_adapter import APIAdapter
 
@@ -23,7 +23,7 @@ class Api_Aeroplanes(APIAdapter):
         try:
             for i in range(3):
                 logger.info(f"Делаю запрос - {i + 1} попытка")
-                response = get(url=self.url, params=self.coordinates)
+                response = requests.get(url=self.url, params=self.coordinates)
                 if str(response.status_code)[0] == "2":
                     logger.info(f"Ответ получен: код {response.status_code}")
                     break
