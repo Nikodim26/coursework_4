@@ -8,7 +8,7 @@ from src.api_adapter import APIAdapter
 logger = logging.getLogger(__name__)
 
 
-class Api_Coord(APIAdapter):
+class ApiCoord(APIAdapter):
     """Класс объекта, отвечающего за получение координат "квадрата" определенной страны"""
 
     def __init__(self, country: str) -> None:

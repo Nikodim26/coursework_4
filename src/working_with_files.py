@@ -1,7 +1,8 @@
-from abc import ABC, abstractmethod
+from abc import ABC
+from abc import abstractmethod
 
 
-class Working_With_Files(ABC):
+class WorkingWithFiles(ABC):
     """Шаблон для объектов работающих с данными из файла, характеризующими самолеты"""
 
     def __init__(self, file: str, data: list) -> None:
@@ -17,5 +18,5 @@ class Working_With_Files(ABC):
         pass
 
     @abstractmethod
-    def obtaining_information_on_the_criteria(self) -> None:
+    def remove_from_file(self) -> None:
         pass

@@ -1,10 +1,10 @@
 import os
 
-from src.receipt_by_criterion import Receipt_by_Criterion
+from src.receipt_by_criterion import ReceiptByCriterion
 
 
 def test_obtaining_information_on_the_criteria(fixture_get_by_criterion) -> None:
-    receipt_by_criterion = Receipt_by_Criterion("1.json", [])
+    receipt_by_criterion = ReceiptByCriterion("1.json", [])
 
     assert receipt_by_criterion.obtaining_information_on_the_criteria(fixture_get_by_criterion) == [
         {"Altitude": 12146.28, "Country": "France", "ICAO24": "39de41", "Velocity": 236.75},

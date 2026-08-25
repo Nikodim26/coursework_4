@@ -1,237 +1,219 @@
 [
     {
-        "ICAO24": "3d23f5",
-        "Country": "Germany",
-        "Velocity": 45.72,
-        "Altitude": 1508.76
+        "ICAO24": "39de49",
+        "Country": "France",
+        "Velocity": 231.17,
+        "Altitude": 12214.86
     },
     {
-        "ICAO24": "4bc8d0",
-        "Country": "Turkey",
-        "Velocity": 253.56,
-        "Altitude": 12306.3
-    },
-    {
-        "ICAO24": "4bc8d5",
-        "Country": "Turkey",
-        "Velocity": 70.9,
-        "Altitude": 929.64
-    },
-    {
-        "ICAO24": "47b217",
-        "Country": "Norway",
-        "Velocity": 237.22,
-        "Altitude": 11948.16
-    },
-    {
-        "ICAO24": "3d23c1",
-        "Country": "Germany",
-        "Velocity": 31.28,
-        "Altitude": 1706.88
+        "ICAO24": "511170",
+        "Country": "Estonia",
+        "Velocity": 111.55,
+        "Altitude": 1013.46
     },
     {
         "ICAO24": "51118a",
         "Country": "Estonia",
-        "Velocity": 1.54,
-        "Altitude": 0
+        "Velocity": 213.51,
+        "Altitude": 6195.06
     },
     {
         "ICAO24": "440248",
         "Country": "Austria",
-        "Velocity": 221.81,
-        "Altitude": 12009.12
+        "Velocity": 223.78,
+        "Altitude": 12252.96
     },
     {
         "ICAO24": "3c5ee9",
         "Country": "Germany",
-        "Velocity": 214.53,
-        "Altitude": 8686.8
+        "Velocity": 210.8,
+        "Altitude": 11582.4
     },
     {
         "ICAO24": "4bc8cb",
         "Country": "Turkey",
-        "Velocity": 224.16,
-        "Altitude": 10744.2
+        "Velocity": 222.61,
+        "Altitude": 10111.74
+    },
+    {
+        "ICAO24": "3c5ef8",
+        "Country": "Germany",
+        "Velocity": 194.4,
+        "Altitude": 6042.66
+    },
+    {
+        "ICAO24": "3c5ef6",
+        "Country": "Germany",
+        "Velocity": 218.79,
+        "Altitude": 6598.92
     },
     {
         "ICAO24": "46b82d",
         "Country": "Greece",
-        "Velocity": 222.92,
-        "Altitude": 11369.04
-    },
-    {
-        "ICAO24": "3c5eed",
-        "Country": "Germany",
-        "Velocity": 185.38,
-        "Altitude": 6530.34
+        "Velocity": 188.57,
+        "Altitude": 6949.44
     },
     {
         "ICAO24": "3c5ef0",
         "Country": "Germany",
-        "Velocity": 226.22,
-        "Altitude": 11361.42
+        "Velocity": 242.74,
+        "Altitude": 9273.54
     },
     {
-        "ICAO24": "3c5ef2",
+        "ICAO24": "3c5ef5",
         "Country": "Germany",
-        "Velocity": 206.57,
-        "Altitude": 8778.24
+        "Velocity": 186.34,
+        "Altitude": 4831.08
     },
     {
         "ICAO24": "46b838",
         "Country": "Greece",
-        "Velocity": 7.72,
+        "Velocity": 0,
         "Altitude": 0
     },
     {
         "ICAO24": "440237",
         "Country": "Austria",
-        "Velocity": 207.99,
-        "Altitude": 6164.58
+        "Velocity": 213.39,
+        "Altitude": 11285.22
     },
     {
         "ICAO24": "44022d",
         "Country": "Austria",
-        "Velocity": 255.15,
-        "Altitude": 9387.84
+        "Velocity": 227.1,
+        "Altitude": 7528.56
     },
     {
         "ICAO24": "44022b",
         "Country": "Austria",
-        "Velocity": 156,
-        "Altitude": 3749.04
+        "Velocity": 4.63,
+        "Altitude": 0
     },
     {
         "ICAO24": "3ffbb2",
         "Country": "Germany",
-        "Velocity": 31.52,
+        "Velocity": 58.22,
         "Altitude": 0
     },
     {
         "ICAO24": "3d1255",
         "Country": "Germany",
-        "Velocity": 51.96,
-        "Altitude": 822.96
+        "Velocity": 7.46,
+        "Altitude": 0
     },
     {
-        "ICAO24": "4aca83",
+        "ICAO24": "4aca9a",
         "Country": "Sweden",
-        "Velocity": 232.65,
-        "Altitude": 11971.02
+        "Velocity": 237.27,
+        "Altitude": 11887.2
     },
     {
         "ICAO24": "4aca7a",
         "Country": "Sweden",
-        "Velocity": 215.78,
-        "Altitude": 11887.2
-    },
-    {
-        "ICAO24": "3c5eee",
-        "Country": "Germany",
-        "Velocity": 209.69,
-        "Altitude": 9654.54
+        "Velocity": 205.35,
+        "Altitude": 9593.58
     },
     {
         "ICAO24": "4aa947",
         "Country": "Sweden",
-        "Velocity": 24.39,
-        "Altitude": 220.98
+        "Velocity": 35.5,
+        "Altitude": 251.46
     },
     {
         "ICAO24": "471f6f",
         "Country": "Hungary",
-        "Velocity": 184.26,
-        "Altitude": 7635.24
+        "Velocity": 89.73,
+        "Altitude": 1036.32
     },
     {
         "ICAO24": "3d37be",
         "Country": "Germany",
-        "Velocity": 52.68,
-        "Altitude": 647.7
+        "Velocity": 55.85,
+        "Altitude": 815.34
+    },
+    {
+        "ICAO24": "471f38",
+        "Country": "Hungary",
+        "Velocity": 228.76,
+        "Altitude": 10157.46
     },
     {
         "ICAO24": "471f00",
         "Country": "Hungary",
-        "Velocity": 209.26,
+        "Velocity": 217.12,
         "Altitude": 11292.84
     },
     {
         "ICAO24": "4b405b",
         "Country": "Switzerland",
-        "Velocity": 79.23,
-        "Altitude": 1066.8
-    },
-    {
-        "ICAO24": "5003e8",
-        "Country": "San Marino",
-        "Velocity": 0,
-        "Altitude": 0
+        "Velocity": 77.72,
+        "Altitude": 967.74
     },
     {
         "ICAO24": "3d22bb",
         "Country": "Germany",
-        "Velocity": 78.71,
-        "Altitude": 5387.34
+        "Velocity": 99.29,
+        "Altitude": 6324.6
     },
     {
         "ICAO24": "3ffb10",
         "Country": "Germany",
-        "Velocity": 42.05,
+        "Velocity": 32.67,
         "Altitude": 403.86
-    },
-    {
-        "ICAO24": "3c4b2e",
-        "Country": "Germany",
-        "Velocity": 5.92,
-        "Altitude": 0
     },
     {
         "ICAO24": "3c4b45",
         "Country": "Germany",
-        "Velocity": 249.16,
-        "Altitude": 12009.12
+        "Velocity": 243.53,
+        "Altitude": 12268.2
+    },
+    {
+        "ICAO24": "3d22a0",
+        "Country": "Germany",
+        "Velocity": 36.73,
+        "Altitude": 335.28
     },
     {
         "ICAO24": "3c4b4b",
         "Country": "Germany",
-        "Velocity": 246.04,
-        "Altitude": 11041.38
-    },
-    {
-        "ICAO24": "3d3720",
-        "Country": "Germany",
-        "Velocity": 32,
-        "Altitude": 182.88
-    },
-    {
-        "ICAO24": "3ffb83",
-        "Country": "Germany",
-        "Velocity": 55.92,
-        "Altitude": 1280.16
+        "Velocity": 250.4,
+        "Altitude": 12313.92
     },
     {
         "ICAO24": "4aca09",
         "Country": "Sweden",
-        "Velocity": 236.21,
-        "Altitude": 11582.4
+        "Velocity": 221.81,
+        "Altitude": 11620.5
+    },
+    {
+        "ICAO24": "4aca0c",
+        "Country": "Sweden",
+        "Velocity": 231.81,
+        "Altitude": 12176.76
     },
     {
         "ICAO24": "3ffb0e",
         "Country": "Germany",
-        "Velocity": 57.55,
-        "Altitude": 670.56
+        "Velocity": 59.82,
+        "Altitude": 960.12
     },
     {
         "ICAO24": "471fa2",
         "Country": "Hungary",
-        "Velocity": 209.17,
+        "Velocity": 214.14,
         "Altitude": 11315.7
+    },
+    {
+        "ICAO24": "471fa7",
+        "Country": "Hungary",
+        "Velocity": 213.12,
+        "Altitude": 11346.18
     },
     {
         "ICAO24": "471fad",
         "Country": "Hungary",
-        "Velocity": 240.95,
-        "Altitude": 11628.12
+        "Velocity": 237.97,
+        "Altitude": 11650.98
     },
     {
         "ICAO24": "3c177d",
@@ -240,202 +222,226 @@
         "Altitude": 0
     },
     {
+        "ICAO24": "4bc852",
+        "Country": "Turkey",
+        "Velocity": 237.11,
+        "Altitude": 10995.66
+    },
+    {
+        "ICAO24": "4bc84b",
+        "Country": "Turkey",
+        "Velocity": 210.11,
+        "Altitude": 9464.04
+    },
+    {
         "ICAO24": "4521b2",
         "Country": "Bulgaria",
-        "Velocity": 214.83,
+        "Velocity": 223.27,
         "Altitude": 0
     },
     {
-        "ICAO24": "4401d4",
+        "ICAO24": "4401d8",
         "Country": "Austria",
-        "Velocity": 99.71,
-        "Altitude": 716.28
-    },
-    {
-        "ICAO24": "4bc850",
-        "Country": "Turkey",
-        "Velocity": 1.29,
-        "Altitude": 0
+        "Velocity": 31.52,
+        "Altitude": 815.34
     },
     {
         "ICAO24": "5002cd",
         "Country": "San Marino",
-        "Velocity": 225.88,
-        "Altitude": 8907.78
+        "Velocity": 106.17,
+        "Altitude": 998.22
+    },
+    {
+        "ICAO24": "4bc892",
+        "Country": "Turkey",
+        "Velocity": 234.2,
+        "Altitude": 9898.38
+    },
+    {
+        "ICAO24": "4bb562",
+        "Country": "Turkey",
+        "Velocity": 222.98,
+        "Altitude": 9197.34
     },
     {
         "ICAO24": "452086",
         "Country": "Bulgaria",
-        "Velocity": 234.44,
-        "Altitude": 10736.58
+        "Velocity": 220.45,
+        "Altitude": 10698.48
     },
     {
-        "ICAO24": "44004f",
+        "ICAO24": "452037",
+        "Country": "Bulgaria",
+        "Velocity": 232.83,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "44003a",
         "Country": "Austria",
-        "Velocity": 91.82,
-        "Altitude": 960.12
+        "Velocity": 222.59,
+        "Altitude": 11308.08
+    },
+    {
+        "ICAO24": "452023",
+        "Country": "Bulgaria",
+        "Velocity": 227.96,
+        "Altitude": 9166.86
     },
     {
         "ICAO24": "44006e",
         "Country": "Austria",
-        "Velocity": 226.76,
-        "Altitude": 10728.96
+        "Velocity": 238.21,
+        "Altitude": 8092.44
+    },
+    {
+        "ICAO24": "44006c",
+        "Country": "Austria",
+        "Velocity": 210.69,
+        "Altitude": 9525
     },
     {
         "ICAO24": "70209a",
         "Country": "Bangladesh",
-        "Velocity": 240.28,
-        "Altitude": 12557.76
+        "Velocity": 239.5,
+        "Altitude": 12542.52
     },
     {
         "ICAO24": "3d3606",
         "Country": "Germany",
-        "Velocity": 58.67,
-        "Altitude": 1684.02
+        "Velocity": 0.51,
+        "Altitude": 0
     },
     {
         "ICAO24": "4b0f92",
         "Country": "Switzerland",
-        "Velocity": 141.18,
-        "Altitude": 7132.32
-    },
-    {
-        "ICAO24": "440030",
-        "Country": "Austria",
-        "Velocity": 111.13,
-        "Altitude": 1584.96
-    },
-    {
-        "ICAO24": "3ffa53",
-        "Country": "Germany",
-        "Velocity": 38.1,
-        "Altitude": 0
+        "Velocity": 101.19,
+        "Altitude": 1630.68
     },
     {
         "ICAO24": "3ffa30",
         "Country": "Germany",
-        "Velocity": 62.76,
-        "Altitude": 838.2
+        "Velocity": 64,
+        "Altitude": 754.38
+    },
+    {
+        "ICAO24": "471d6b",
+        "Country": "Hungary",
+        "Velocity": 146.31,
+        "Altitude": 3314.7
     },
     {
         "ICAO24": "3d1047",
         "Country": "Germany",
-        "Velocity": 45.18,
-        "Altitude": 1584.96
+        "Velocity": 46.71,
+        "Altitude": 1592.58
     },
     {
         "ICAO24": "896121",
         "Country": "United Arab Emirates",
-        "Velocity": 247.65,
-        "Altitude": 10706.1
+        "Velocity": 255.96,
+        "Altitude": 10675.62
+    },
+    {
+        "ICAO24": "471d60",
+        "Country": "Hungary",
+        "Velocity": 227.57,
+        "Altitude": 10759.44
+    },
+    {
+        "ICAO24": "471d66",
+        "Country": "Hungary",
+        "Velocity": 222.44,
+        "Altitude": 10751.82
     },
     {
         "ICAO24": "471d67",
         "Country": "Hungary",
-        "Velocity": 157.3,
-        "Altitude": 3154.68
-    },
-    {
-        "ICAO24": "3d4973",
-        "Country": "Germany",
-        "Velocity": 65.85,
-        "Altitude": 990.6
-    },
-    {
-        "ICAO24": "458d9a",
-        "Country": "Denmark",
-        "Velocity": 64.95,
-        "Altitude": 228.6
+        "Velocity": 241.82,
+        "Altitude": 11056.62
     },
     {
         "ICAO24": "345543",
         "Country": "Spain",
-        "Velocity": 212.58,
-        "Altitude": 6393.18
+        "Velocity": 73.57,
+        "Altitude": 548.64
+    },
+    {
+        "ICAO24": "89617f",
+        "Country": "United Arab Emirates",
+        "Velocity": 250.66,
+        "Altitude": 10744.2
     },
     {
         "ICAO24": "89618d",
         "Country": "United Arab Emirates",
-        "Velocity": 246.95,
-        "Altitude": 12527.28
+        "Velocity": 252.64,
+        "Altitude": 12512.04
     },
     {
         "ICAO24": "3849ff",
         "Country": "France",
-        "Velocity": 1.29,
+        "Velocity": 5.4,
         "Altitude": 0
-    },
-    {
-        "ICAO24": "3d20a7",
-        "Country": "Germany",
-        "Velocity": 40.59,
-        "Altitude": 716.28
     },
     {
         "ICAO24": "440181",
         "Country": "Austria",
-        "Velocity": 205.29,
-        "Altitude": 10134.6
+        "Velocity": 127.92,
+        "Altitude": 2903.22
+    },
+    {
+        "ICAO24": "45caae",
+        "Country": "Denmark",
+        "Velocity": 59.24,
+        "Altitude": 297.18
     },
     {
         "ICAO24": "440141",
         "Country": "Austria",
-        "Velocity": 138.73,
-        "Altitude": 3901.44
+        "Velocity": 9.26,
+        "Altitude": 0
     },
     {
-        "ICAO24": "45cab6",
-        "Country": "Denmark",
-        "Velocity": 100.03,
-        "Altitude": 1264.92
+        "ICAO24": "4c2e40",
+        "Country": "Serbia",
+        "Velocity": 224.47,
+        "Altitude": 9441.18
     },
     {
-        "ICAO24": "4bd8c5",
-        "Country": "Turkey",
-        "Velocity": 233.48,
-        "Altitude": 11658.6
+        "ICAO24": "471db8",
+        "Country": "Hungary",
+        "Velocity": 261.18,
+        "Altitude": 10462.26
     },
     {
-        "ICAO24": "89621a",
-        "Country": "United Arab Emirates",
-        "Velocity": 114.48,
-        "Altitude": 1104.9
-    },
-    {
-        "ICAO24": "8017f7",
-        "Country": "India",
-        "Velocity": 239.6,
-        "Altitude": 11910.06
+        "ICAO24": "4892c5",
+        "Country": "Poland",
+        "Velocity": 248.09,
+        "Altitude": 11673.84
     },
     {
         "ICAO24": "4bb1c6",
         "Country": "Turkey",
-        "Velocity": 0,
+        "Velocity": 5.14,
         "Altitude": 0
     },
     {
         "ICAO24": "3d489c",
         "Country": "Germany",
-        "Velocity": 35,
-        "Altitude": 632.46
+        "Velocity": 57.62,
+        "Altitude": 1036.32
     },
     {
         "ICAO24": "896213",
         "Country": "United Arab Emirates",
-        "Velocity": 241.39,
-        "Altitude": 11361.42
-    },
-    {
-        "ICAO24": "39dd03",
-        "Country": "France",
-        "Velocity": 194.98,
-        "Altitude": 11308.08
+        "Velocity": 242.13,
+        "Altitude": 10515.6
     },
     {
         "ICAO24": "3d2296",
         "Country": "Germany",
-        "Velocity": 29.25,
-        "Altitude": 60.96
+        "Velocity": 31.4,
+        "Altitude": 83.82
     },
     {
         "ICAO24": "4bb248",
@@ -444,244 +450,244 @@
         "Altitude": 0
     },
     {
-        "ICAO24": "4bb295",
+        "ICAO24": "4bb292",
         "Country": "Turkey",
-        "Velocity": 238.44,
-        "Altitude": 11056.62
-    },
-    {
-        "ICAO24": "4bb28a",
-        "Country": "Turkey",
-        "Velocity": 243.96,
-        "Altitude": 11681.46
+        "Velocity": 253.31,
+        "Altitude": 11064.24
     },
     {
         "ICAO24": "3c5b32",
         "Country": "Germany",
-        "Velocity": 207.52,
-        "Altitude": 7612.38
+        "Velocity": 122.65,
+        "Altitude": 1645.92
     },
     {
         "ICAO24": "44cdd0",
         "Country": "Belgium",
-        "Velocity": 220.21,
-        "Altitude": 11369.04
+        "Velocity": 215.36,
+        "Altitude": 11346.18
     },
     {
         "ICAO24": "46b2b8",
         "Country": "Greece",
-        "Velocity": 230.03,
-        "Altitude": 8458.2
+        "Velocity": 73.77,
+        "Altitude": 137.16
     },
     {
         "ICAO24": "896357",
         "Country": "United Arab Emirates",
-        "Velocity": 8.75,
-        "Altitude": 0
+        "Velocity": 262.41,
+        "Altitude": 9913.62
     },
     {
-        "ICAO24": "40676a",
-        "Country": "United Kingdom",
-        "Velocity": 211.17,
-        "Altitude": 11681.46
+        "ICAO24": "44ce77",
+        "Country": "Belgium",
+        "Velocity": 191.6,
+        "Altitude": 5806.44
+    },
+    {
+        "ICAO24": "44ce6c",
+        "Country": "Belgium",
+        "Velocity": 213.87,
+        "Altitude": 11346.18
+    },
+    {
+        "ICAO24": "4bb0ed",
+        "Country": "Turkey",
+        "Velocity": 270.23,
+        "Altitude": 12847.32
+    },
+    {
+        "ICAO24": "44ce62",
+        "Country": "Belgium",
+        "Velocity": 206.29,
+        "Altitude": 11910.06
     },
     {
         "ICAO24": "44ce61",
         "Country": "Belgium",
-        "Velocity": 232.23,
-        "Altitude": 8267.7
+        "Velocity": 223.78,
+        "Altitude": 11894.82
     },
     {
         "ICAO24": "44ce66",
         "Country": "Belgium",
-        "Velocity": 171.8,
-        "Altitude": 3779.52
+        "Velocity": 224.96,
+        "Altitude": 10698.48
+    },
+    {
+        "ICAO24": "896318",
+        "Country": "United Arab Emirates",
+        "Velocity": 238.64,
+        "Altitude": 11361.42
     },
     {
         "ICAO24": "44ce72",
         "Country": "Belgium",
-        "Velocity": 177.82,
-        "Altitude": 7277.1
+        "Velocity": 147.52,
+        "Altitude": 3924.3
     },
     {
-        "ICAO24": "6832b3",
-        "Country": "Kazakhstan",
-        "Velocity": 240.19,
-        "Altitude": 8983.98
-    },
-    {
-        "ICAO24": "3d347e",
-        "Country": "Germany",
-        "Velocity": 37.45,
-        "Altitude": 312.42
-    },
-    {
-        "ICAO24": "506e42",
-        "Country": "Slovenia",
-        "Velocity": 51.01,
-        "Altitude": 655.32
+        "ICAO24": "800732",
+        "Country": "India",
+        "Velocity": 230.92,
+        "Altitude": 12618.72
     },
     {
         "ICAO24": "4bb105",
         "Country": "Turkey",
-        "Velocity": 228.24,
-        "Altitude": 11917.68
-    },
-    {
-        "ICAO24": "484ee4",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 193.86,
-        "Altitude": 6347.46
-    },
-    {
-        "ICAO24": "4b1f2f",
-        "Country": "Switzerland",
-        "Velocity": 81.71,
-        "Altitude": 2903.22
+        "Velocity": 245.36,
+        "Altitude": 11879.58
     },
     {
         "ICAO24": "4b1f30",
         "Country": "Switzerland",
-        "Velocity": 78.51,
-        "Altitude": 1950.72
+        "Velocity": 4.12,
+        "Altitude": 0
     },
     {
         "ICAO24": "4ac9f0",
         "Country": "Sweden",
-        "Velocity": 223.96,
-        "Altitude": 10073.64
+        "Velocity": 216.3,
+        "Altitude": 10812.78
     },
     {
-        "ICAO24": "3e0fe1",
+        "ICAO24": "4d02c7",
+        "Country": "Luxembourg",
+        "Velocity": 127.85,
+        "Altitude": 4229.1
+    },
+    {
+        "ICAO24": "c01479",
+        "Country": "Canada",
+        "Velocity": 176.51,
+        "Altitude": 5638.8
+    },
+    {
+        "ICAO24": "3e0ff1",
         "Country": "Germany",
-        "Velocity": 65.35,
-        "Altitude": 792.48
+        "Velocity": 1.54,
+        "Altitude": 114.3
     },
     {
         "ICAO24": "02008b",
         "Country": "Morocco",
-        "Velocity": 185.59,
-        "Altitude": 3611.88
+        "Velocity": 7.2,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "896459",
+        "Country": "United Arab Emirates",
+        "Velocity": 267.29,
+        "Altitude": 12230.1
+    },
+    {
+        "ICAO24": "896456",
+        "Country": "United Arab Emirates",
+        "Velocity": 233.66,
+        "Altitude": 12588.24
     },
     {
         "ICAO24": "896463",
         "Country": "United Arab Emirates",
-        "Velocity": 238.81,
-        "Altitude": 12557.76
+        "Velocity": 226.61,
+        "Altitude": 12542.52
+    },
+    {
+        "ICAO24": "8963a3",
+        "Country": "United Arab Emirates",
+        "Velocity": 240.17,
+        "Altitude": 10355.58
     },
     {
         "ICAO24": "484bae",
         "Country": "Kingdom of the Netherlands",
-        "Velocity": 32.74,
+        "Velocity": 32.62,
         "Altitude": 0
     },
     {
         "ICAO24": "3475d5",
         "Country": "Spain",
-        "Velocity": 127.34,
-        "Altitude": 2987.04
-    },
-    {
-        "ICAO24": "4064bb",
-        "Country": "United Kingdom",
-        "Velocity": 248.87,
-        "Altitude": 11681.46
-    },
-    {
-        "ICAO24": "3c49cb",
-        "Country": "Germany",
         "Velocity": 0,
         "Altitude": 0
     },
     {
-        "ICAO24": "8964bd",
-        "Country": "United Arab Emirates",
-        "Velocity": 232.32,
-        "Altitude": 11315.7
+        "ICAO24": "3c49d4",
+        "Country": "Germany",
+        "Velocity": 185.55,
+        "Altitude": 3307.08
     },
     {
-        "ICAO24": "3ddc70",
-        "Country": "Germany",
-        "Velocity": 57.85,
-        "Altitude": 457.2
+        "ICAO24": "896624",
+        "Country": "United Arab Emirates",
+        "Velocity": 242.77,
+        "Altitude": 12512.04
+    },
+    {
+        "ICAO24": "896621",
+        "Country": "United Arab Emirates",
+        "Velocity": 240.55,
+        "Altitude": 12534.9
     },
     {
         "ICAO24": "3ddc6f",
         "Country": "Germany",
-        "Velocity": 43.15,
-        "Altitude": 396.24
+        "Velocity": 2.06,
+        "Altitude": 137.16
     },
     {
         "ICAO24": "4b1e47",
         "Country": "Switzerland",
-        "Velocity": 84.89,
-        "Altitude": 2065.02
+        "Velocity": 97.81,
+        "Altitude": 2895.6
     },
     {
-        "ICAO24": "484c5a",
+        "ICAO24": "484c54",
         "Country": "Kingdom of the Netherlands",
-        "Velocity": 226.26,
-        "Altitude": 11910.06
+        "Velocity": 163.7,
+        "Altitude": 4450.08
     },
     {
-        "ICAO24": "3d3206",
-        "Country": "Germany",
-        "Velocity": 61.58,
-        "Altitude": 685.8
+        "ICAO24": "461f6d",
+        "Country": "Finland",
+        "Velocity": 5.66,
+        "Altitude": 0
     },
     {
         "ICAO24": "896598",
         "Country": "United Arab Emirates",
-        "Velocity": 247.04,
-        "Altitude": 11308.08
+        "Velocity": 203.93,
+        "Altitude": 7178.04
+    },
+    {
+        "ICAO24": "3009b2",
+        "Country": "Italy",
+        "Velocity": 191.15,
+        "Altitude": 8481.06
     },
     {
         "ICAO24": "48af05",
         "Country": "Poland",
-        "Velocity": 169.6,
-        "Altitude": 4800.6
-    },
-    {
-        "ICAO24": "48af03",
-        "Country": "Poland",
-        "Velocity": 242.68,
-        "Altitude": 11628.12
+        "Velocity": 74.54,
+        "Altitude": 289.56
     },
     {
         "ICAO24": "461f69",
         "Country": "Finland",
-        "Velocity": 215.74,
-        "Altitude": 8945.88
-    },
-    {
-        "ICAO24": "896587",
-        "Country": "United Arab Emirates",
-        "Velocity": 216.84,
-        "Altitude": 11323.32
-    },
-    {
-        "ICAO24": "40650b",
-        "Country": "United Kingdom",
-        "Velocity": 0,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "4b9910",
-        "Country": "Turkey",
-        "Velocity": 234.09,
-        "Altitude": 10203.18
+        "Velocity": 62.68,
+        "Altitude": 213.36
     },
     {
         "ICAO24": "8964c1",
         "Country": "United Arab Emirates",
-        "Velocity": 201.92,
-        "Altitude": 5608.32
+        "Velocity": 83.51,
+        "Altitude": 1051.56
     },
     {
         "ICAO24": "4076da",
         "Country": "United Kingdom",
-        "Velocity": 236.96,
-        "Altitude": 11628.12
+        "Velocity": 246.22,
+        "Altitude": 11673.84
     },
     {
         "ICAO24": "3c1259",
@@ -698,1628 +704,1502 @@
     {
         "ICAO24": "47945c",
         "Country": "Norway",
-        "Velocity": 229.43,
-        "Altitude": 11277.6
+        "Velocity": 227.44,
+        "Altitude": 11292.84
     },
     {
         "ICAO24": "48adab",
         "Country": "Poland",
-        "Velocity": 206.33,
-        "Altitude": 9067.8
+        "Velocity": 96.26,
+        "Altitude": 2110.74
+    },
+    {
+        "ICAO24": "3c48f1",
+        "Country": "Germany",
+        "Velocity": 180.21,
+        "Altitude": 5082.54
     },
     {
         "ICAO24": "4b1bf6",
         "Country": "Switzerland",
-        "Velocity": 44.09,
-        "Altitude": 1150.62
+        "Velocity": 0,
+        "Altitude": 0
     },
     {
         "ICAO24": "4ab563",
         "Country": "Sweden",
-        "Velocity": 136.44,
-        "Altitude": 3810
+        "Velocity": 110.39,
+        "Altitude": 1508.76
     },
     {
         "ICAO24": "4ab564",
         "Country": "Sweden",
-        "Velocity": 155.53,
-        "Altitude": 5227.32
+        "Velocity": 4.89,
+        "Altitude": 0
     },
     {
-        "ICAO24": "4d028c",
+        "ICAO24": "4d0242",
         "Country": "Luxembourg",
-        "Velocity": 10.59,
-        "Altitude": 434.34
+        "Velocity": 218.44,
+        "Altitude": 7886.7
+    },
+    {
+        "ICAO24": "461fa9",
+        "Country": "Finland",
+        "Velocity": 81.49,
+        "Altitude": 487.68
     },
     {
         "ICAO24": "40666a",
         "Country": "United Kingdom",
-        "Velocity": 194.83,
-        "Altitude": 12009.12
+        "Velocity": 200.02,
+        "Altitude": 12001.5
     },
     {
         "ICAO24": "406673",
         "Country": "United Kingdom",
-        "Velocity": 1.29,
-        "Altitude": 0
+        "Velocity": 200.64,
+        "Altitude": 7802.88
     },
     {
         "ICAO24": "c0126a",
         "Country": "Canada",
-        "Velocity": 2.06,
-        "Altitude": 0
+        "Velocity": 186.27,
+        "Altitude": 7589.52
     },
     {
         "ICAO24": "34654b",
         "Country": "Spain",
-        "Velocity": 252.85,
-        "Altitude": 11056.62
+        "Velocity": 217.22,
+        "Altitude": 6896.1
     },
     {
         "ICAO24": "89667e",
         "Country": "United Arab Emirates",
-        "Velocity": 185.38,
-        "Altitude": 4693.92
+        "Velocity": 3.09,
+        "Altitude": 0
     },
     {
         "ICAO24": "4d00d0",
         "Country": "Luxembourg",
-        "Velocity": 162.06,
-        "Altitude": 7665.72
+        "Velocity": 149.28,
+        "Altitude": 5806.44
     },
     {
         "ICAO24": "40796b",
         "Country": "United Kingdom",
-        "Velocity": 257.33,
-        "Altitude": 11635.74
+        "Velocity": 254.14,
+        "Altitude": 11681.46
     },
     {
-        "ICAO24": "4d00d7",
-        "Country": "Luxembourg",
-        "Velocity": 100.57,
-        "Altitude": 1546.86
+        "ICAO24": "44cd74",
+        "Country": "Belgium",
+        "Velocity": 6.94,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "748021",
+        "Country": "Lebanon",
+        "Velocity": 273.52,
+        "Altitude": 11026.14
     },
     {
         "ICAO24": "4d00d6",
         "Country": "Luxembourg",
-        "Velocity": 0,
-        "Altitude": 0
+        "Velocity": 172.62,
+        "Altitude": 7261.86
+    },
+    {
+        "ICAO24": "4d00d5",
+        "Country": "Luxembourg",
+        "Velocity": 145.59,
+        "Altitude": 5334
     },
     {
         "ICAO24": "4d00d4",
         "Country": "Luxembourg",
-        "Velocity": 173.37,
-        "Altitude": 7307.58
+        "Velocity": 173.94,
+        "Altitude": 7315.2
     },
     {
-        "ICAO24": "4d00de",
-        "Country": "Luxembourg",
-        "Velocity": 219.99,
-        "Altitude": 8877.3
+        "ICAO24": "76cd74",
+        "Country": "Singapore",
+        "Velocity": 228.6,
+        "Altitude": 11955.78
     },
     {
-        "ICAO24": "4d00f3",
-        "Country": "Luxembourg",
-        "Velocity": 246.13,
-        "Altitude": 9822.18
-    },
-    {
-        "ICAO24": "4d00da",
-        "Country": "Luxembourg",
-        "Velocity": 70.45,
-        "Altitude": 944.88
+        "ICAO24": "4b1bb7",
+        "Country": "Switzerland",
+        "Velocity": 44.41,
+        "Altitude": 1143
     },
     {
         "ICAO24": "899080",
         "Country": "Taiwan",
-        "Velocity": 240.93,
-        "Altitude": 10759.44
+        "Velocity": 244.2,
+        "Altitude": 10736.58
     },
     {
-        "ICAO24": "3c8483",
-        "Country": "Germany",
-        "Velocity": 96.76,
-        "Altitude": 1089.66
-    },
-    {
-        "ICAO24": "486491",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 223.42,
-        "Altitude": 9730.74
-    },
-    {
-        "ICAO24": "486492",
-        "Country": "Kingdom of the Netherlands",
+        "ICAO24": "49d3d3",
+        "Country": "Czech Republic",
         "Velocity": 0,
         "Altitude": 0
     },
     {
-        "ICAO24": "406f73",
-        "Country": "United Kingdom",
-        "Velocity": 231.3,
-        "Altitude": 12595.86
+        "ICAO24": "486492",
+        "Country": "Kingdom of the Netherlands",
+        "Velocity": 207.69,
+        "Altitude": 10096.5
     },
     {
-        "ICAO24": "486483",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 192,
-        "Altitude": 5905.5
+        "ICAO24": "406f73",
+        "Country": "United Kingdom",
+        "Velocity": 231.03,
+        "Altitude": 12573
+    },
+    {
+        "ICAO24": "4ca4ed",
+        "Country": "Ireland",
+        "Velocity": 170.25,
+        "Altitude": 3733.8
     },
     {
         "ICAO24": "3c1aeb",
         "Country": "Germany",
-        "Velocity": 81.26,
-        "Altitude": 525.78
+        "Velocity": 236.83,
+        "Altitude": 10690.86
     },
     {
         "ICAO24": "3d3aba",
         "Country": "Germany",
-        "Velocity": 82.24,
-        "Altitude": 2560.32
+        "Velocity": 80.15,
+        "Altitude": 2552.7
     },
     {
-        "ICAO24": "502db4",
-        "Country": "Latvia",
-        "Velocity": 228.25,
-        "Altitude": 10363.2
+        "ICAO24": "3e0172",
+        "Country": "Germany",
+        "Velocity": 56.62,
+        "Altitude": 411.48
     },
     {
         "ICAO24": "4ca565",
         "Country": "Ireland",
-        "Velocity": 247.05,
-        "Altitude": 12245.34
+        "Velocity": 248.08,
+        "Altitude": 12306.3
     },
     {
-        "ICAO24": "395d67",
-        "Country": "France",
-        "Velocity": 202.82,
-        "Altitude": 10683.24
+        "ICAO24": "49d586",
+        "Country": "Czech Republic",
+        "Velocity": 52.5,
+        "Altitude": 609.6
     },
     {
         "ICAO24": "395d66",
         "Country": "France",
-        "Velocity": 181.83,
-        "Altitude": 5905.5
+        "Velocity": 62.67,
+        "Altitude": 182.88
     },
     {
-        "ICAO24": "4aad10",
-        "Country": "Sweden",
-        "Velocity": 60.08,
-        "Altitude": 457.2
-    },
-    {
-        "ICAO24": "3d1948",
+        "ICAO24": "3d3c2b",
         "Country": "Germany",
-        "Velocity": 74.48,
-        "Altitude": 594.36
+        "Velocity": 36.12,
+        "Altitude": 144.78
     },
     {
         "ICAO24": "3d0615",
         "Country": "Germany",
-        "Velocity": 85.5,
-        "Altitude": 5402.58
+        "Velocity": 103.63,
+        "Altitude": 6332.22
+    },
+    {
+        "ICAO24": "502d29",
+        "Country": "Latvia",
+        "Velocity": 223.64,
+        "Altitude": 10195.56
     },
     {
         "ICAO24": "502d27",
         "Country": "Latvia",
-        "Velocity": 208.19,
-        "Altitude": 10706.1
+        "Velocity": 173.51,
+        "Altitude": 3848.1
+    },
+    {
+        "ICAO24": "06a390",
+        "Country": "Qatar",
+        "Velocity": 149.6,
+        "Altitude": 3131.82
     },
     {
         "ICAO24": "502d58",
         "Country": "Latvia",
-        "Velocity": 206.43,
-        "Altitude": 10675.62
+        "Velocity": 197.38,
+        "Altitude": 5402.58
     },
     {
         "ICAO24": "502d5e",
         "Country": "Latvia",
-        "Velocity": 248.44,
-        "Altitude": 11003.28
+        "Velocity": 228.02,
+        "Altitude": 11033.76
     },
     {
         "ICAO24": "3d0684",
         "Country": "Germany",
-        "Velocity": 71.41,
-        "Altitude": 1783.08
-    },
-    {
-        "ICAO24": "3fefdb",
-        "Country": "Germany",
-        "Velocity": 47.67,
-        "Altitude": 1143
-    },
-    {
-        "ICAO24": "06a30a",
-        "Country": "Qatar",
-        "Velocity": 75.32,
-        "Altitude": 198.12
+        "Velocity": 85.07,
+        "Altitude": 868.68
     },
     {
         "ICAO24": "3d063d",
         "Country": "Germany",
-        "Velocity": 31.49,
-        "Altitude": 220.98
+        "Velocity": 63.81,
+        "Altitude": 487.68
     },
     {
         "ICAO24": "3d3b10",
         "Country": "Germany",
-        "Velocity": 36.88,
-        "Altitude": 350.52
+        "Velocity": 51.75,
+        "Altitude": 899.16
     },
     {
         "ICAO24": "502ce8",
         "Country": "Latvia",
-        "Velocity": 203.79,
-        "Altitude": 7909.56
+        "Velocity": 102.41,
+        "Altitude": 1135.38
     },
     {
         "ICAO24": "4b348f",
         "Country": "Switzerland",
-        "Velocity": 51.19,
-        "Altitude": 899.16
-    },
-    {
-        "ICAO24": "3cd2d3",
-        "Country": "Germany",
-        "Velocity": 184.86,
-        "Altitude": 4663.44
-    },
-    {
-        "ICAO24": "502d89",
-        "Country": "Latvia",
-        "Velocity": 227.59,
-        "Altitude": 9883.14
+        "Velocity": 41.54,
+        "Altitude": 1112.52
     },
     {
         "ICAO24": "502d7d",
         "Country": "Latvia",
-        "Velocity": 238.92,
-        "Altitude": 9486.9
+        "Velocity": 233.86,
+        "Altitude": 9441.18
     },
     {
         "ICAO24": "4863db",
         "Country": "Kingdom of the Netherlands",
-        "Velocity": 224.5,
-        "Altitude": 12565.38
-    },
-    {
-        "ICAO24": "4b8e45",
-        "Country": "Turkey",
-        "Velocity": 245.2,
-        "Altitude": 12268.2
+        "Velocity": 227.11,
+        "Altitude": 12519.66
     },
     {
         "ICAO24": "3d1833",
         "Country": "Germany",
-        "Velocity": 58.14,
-        "Altitude": 982.98
+        "Velocity": 68.34,
+        "Altitude": 1104.9
     },
     {
         "ICAO24": "407fc2",
         "Country": "United Kingdom",
-        "Velocity": 239.4,
-        "Altitude": 12252.96
+        "Velocity": 241.99,
+        "Altitude": 12298.68
     },
     {
-        "ICAO24": "3e1211",
+        "ICAO24": "3e3880",
         "Country": "Germany",
-        "Velocity": 56.92,
-        "Altitude": 548.64
+        "Velocity": 137.94,
+        "Altitude": 1638.3
     },
     {
-        "ICAO24": "39bda7",
-        "Country": "France",
-        "Velocity": 217.43,
-        "Altitude": 11269.98
+        "ICAO24": "4b32ff",
+        "Country": "Switzerland",
+        "Velocity": 0,
+        "Altitude": 0
     },
     {
         "ICAO24": "39bdb3",
         "Country": "France",
-        "Velocity": 160.85,
-        "Altitude": 5234.94
+        "Velocity": 198.99,
+        "Altitude": 11910.06
     },
     {
         "ICAO24": "48b207",
         "Country": "Poland",
-        "Velocity": 220.58,
-        "Altitude": 11315.7
+        "Velocity": 217.67,
+        "Altitude": 11308.08
     },
     {
         "ICAO24": "4ca2d5",
         "Country": "Ireland",
-        "Velocity": 244.9,
-        "Altitude": 10591.8
-    },
-    {
-        "ICAO24": "3e1205",
-        "Country": "Germany",
-        "Velocity": 55.69,
-        "Altitude": 198.12
+        "Velocity": 231.9,
+        "Altitude": 12313.92
     },
     {
         "ICAO24": "3ce52c",
         "Country": "Germany",
-        "Velocity": 145.94,
-        "Altitude": 6042.66
+        "Velocity": 156.18,
+        "Altitude": 5471.16
+    },
+    {
+        "ICAO24": "4b3302",
+        "Country": "Switzerland",
+        "Velocity": 53.8,
+        "Altitude": 731.52
     },
     {
         "ICAO24": "3d17c1",
         "Country": "Germany",
-        "Velocity": 48.37,
-        "Altitude": 731.52
+        "Velocity": 32.32,
+        "Altitude": 152.4
     },
     {
         "ICAO24": "8990d4",
         "Country": "Taiwan",
-        "Velocity": 254.61,
-        "Altitude": 10104.12
+        "Velocity": 204.1,
+        "Altitude": 7216.14
     },
     {
-        "ICAO24": "3d3a34",
-        "Country": "Germany",
-        "Velocity": 42.79,
-        "Altitude": 777.24
+        "ICAO24": "49d34c",
+        "Country": "Czech Republic",
+        "Velocity": 69.26,
+        "Altitude": 1135.38
     },
     {
         "ICAO24": "44082c",
         "Country": "Austria",
-        "Velocity": 199.32,
-        "Altitude": 7117.08
+        "Velocity": 75.22,
+        "Altitude": 144.78
     },
     {
         "ICAO24": "44082b",
         "Country": "Austria",
-        "Velocity": 221.37,
-        "Altitude": 11620.5
+        "Velocity": 202.48,
+        "Altitude": 5935.98
+    },
+    {
+        "ICAO24": "440824",
+        "Country": "Austria",
+        "Velocity": 184.67,
+        "Altitude": 5128.26
     },
     {
         "ICAO24": "440823",
         "Country": "Austria",
-        "Velocity": 203.6,
-        "Altitude": 8534.4
+        "Velocity": 101.97,
+        "Altitude": 1188.72
     },
     {
-        "ICAO24": "48e9f3",
-        "Country": "Poland",
-        "Velocity": 231.4,
-        "Altitude": 8404.86
-    },
-    {
-        "ICAO24": "48e9f0",
-        "Country": "Poland",
-        "Velocity": 226.75,
+        "ICAO24": "45ac50",
+        "Country": "Denmark",
+        "Velocity": 224.25,
         "Altitude": 11887.2
     },
     {
-        "ICAO24": "480c47",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 2.31,
-        "Altitude": 0
+        "ICAO24": "34250a",
+        "Country": "Spain",
+        "Velocity": 147.36,
+        "Altitude": 2933.7
     },
     {
-        "ICAO24": "74482d",
-        "Country": "Jordan",
-        "Velocity": 245,
-        "Altitude": 11666.22
+        "ICAO24": "44d076",
+        "Country": "Belgium",
+        "Velocity": 220.52,
+        "Altitude": 11910.06
     },
     {
-        "ICAO24": "4408de",
-        "Country": "Austria",
-        "Velocity": 227.17,
-        "Altitude": 11620.5
+        "ICAO24": "406e9f",
+        "Country": "United Kingdom",
+        "Velocity": 259.58,
+        "Altitude": 12862.56
     },
     {
         "ICAO24": "3c8191",
         "Country": "Germany",
-        "Velocity": 1.8,
+        "Velocity": 8.75,
         "Altitude": 0
     },
     {
-        "ICAO24": "406cab",
+        "ICAO24": "406caa",
         "Country": "United Kingdom",
-        "Velocity": 234.53,
-        "Altitude": 11612.88
+        "Velocity": 236.89,
+        "Altitude": 11597.64
     },
     {
         "ICAO24": "4ca245",
         "Country": "Ireland",
-        "Velocity": 156.09,
-        "Altitude": 3489.96
-    },
-    {
-        "ICAO24": "4ca244",
-        "Country": "Ireland",
-        "Velocity": 242.89,
-        "Altitude": 11643.36
-    },
-    {
-        "ICAO24": "43e949",
-        "Country": "United Kingdom",
-        "Velocity": 123.04,
-        "Altitude": 3825.24
+        "Velocity": 2.83,
+        "Altitude": 0
     },
     {
         "ICAO24": "503e9b",
         "Country": "Lithuania",
-        "Velocity": 221.27,
-        "Altitude": 8473.44
-    },
-    {
-        "ICAO24": "4ca293",
-        "Country": "Ireland",
-        "Velocity": 249.56,
-        "Altitude": 11673.84
+        "Velocity": 219.54,
+        "Altitude": 11635.74
     },
     {
         "ICAO24": "4ca27a",
         "Country": "Ireland",
-        "Velocity": 219.87,
-        "Altitude": 11361.42
+        "Velocity": 220.24,
+        "Altitude": 11338.56
     },
     {
         "ICAO24": "49d276",
         "Country": "Czech Republic",
-        "Velocity": 245.61,
-        "Altitude": 11605.26
-    },
-    {
-        "ICAO24": "4ca263",
-        "Country": "Ireland",
-        "Velocity": 258.24,
-        "Altitude": 12321.54
+        "Velocity": 247.17,
+        "Altitude": 11612.88
     },
     {
         "ICAO24": "4ca256",
         "Country": "Ireland",
-        "Velocity": 230.85,
-        "Altitude": 11978.64
+        "Velocity": 171.83,
+        "Altitude": 6225.54
     },
     {
         "ICAO24": "4ca25a",
         "Country": "Ireland",
-        "Velocity": 1.8,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "406b82",
-        "Country": "United Kingdom",
-        "Velocity": 223.81,
-        "Altitude": 10713.72
+        "Velocity": 232.62,
+        "Altitude": 7056.12
     },
     {
         "ICAO24": "406b84",
         "Country": "United Kingdom",
-        "Velocity": 250.1,
-        "Altitude": 11010.9
+        "Velocity": 248.27,
+        "Altitude": 11079.48
+    },
+    {
+        "ICAO24": "406b5c",
+        "Country": "United Kingdom",
+        "Velocity": 206.45,
+        "Altitude": 10774.68
     },
     {
         "ICAO24": "3ecd4d",
         "Country": "Germany",
-        "Velocity": 41.68,
-        "Altitude": 2080.26
+        "Velocity": 38.95,
+        "Altitude": 2072.64
     },
     {
-        "ICAO24": "48e95d",
-        "Country": "Poland",
-        "Velocity": 200.63,
-        "Altitude": 6926.58
-    },
-    {
-        "ICAO24": "3d1618",
+        "ICAO24": "3d2984",
         "Country": "Germany",
-        "Velocity": 44.92,
-        "Altitude": 419.1
+        "Velocity": 20.17,
+        "Altitude": 129.54
+    },
+    {
+        "ICAO24": "440687",
+        "Country": "Austria",
+        "Velocity": 115.63,
+        "Altitude": 3215.64
     },
     {
         "ICAO24": "71c382",
         "Country": "Republic of Korea",
-        "Velocity": 268.26,
-        "Altitude": 12214.86
+        "Velocity": 264.64,
+        "Altitude": 12237.72
+    },
+    {
+        "ICAO24": "440667",
+        "Country": "Austria",
+        "Velocity": 226.87,
+        "Altitude": 10751.82
     },
     {
         "ICAO24": "3fecf0",
         "Country": "Germany",
-        "Velocity": 33.6,
-        "Altitude": 198.12
+        "Velocity": 30.94,
+        "Altitude": 449.58
     },
     {
         "ICAO24": "440608",
         "Country": "Austria",
-        "Velocity": 219.61,
-        "Altitude": 10736.58
+        "Velocity": 217.98,
+        "Altitude": 10690.86
     },
     {
         "ICAO24": "440605",
         "Country": "Austria",
-        "Velocity": 232.47,
+        "Velocity": 222.83,
         "Altitude": 11041.38
     },
     {
-        "ICAO24": "48c1a9",
-        "Country": "Poland",
-        "Velocity": 245.66,
-        "Altitude": 12252.96
+        "ICAO24": "503cbe",
+        "Country": "Lithuania",
+        "Velocity": 233.37,
+        "Altitude": 8892.54
     },
     {
-        "ICAO24": "48c1a7",
+        "ICAO24": "48c1a1",
         "Country": "Poland",
-        "Velocity": 223.58,
-        "Altitude": 11910.06
+        "Velocity": 218.06,
+        "Altitude": 11049
+    },
+    {
+        "ICAO24": "a7df59",
+        "Country": "United States",
+        "Velocity": 243.03,
+        "Altitude": 11346.18
     },
     {
         "ICAO24": "3f9e12",
         "Country": "Germany",
-        "Velocity": 40.33,
-        "Altitude": 754.38
+        "Velocity": 37.31,
+        "Altitude": 45.72
     },
     {
         "ICAO24": "39cf03",
         "Country": "France",
-        "Velocity": 234.72,
-        "Altitude": 12580.62
-    },
-    {
-        "ICAO24": "4ca14e",
-        "Country": "Ireland",
-        "Velocity": 241.26,
-        "Altitude": 9723.12
+        "Velocity": 235.79,
+        "Altitude": 12565.38
     },
     {
         "ICAO24": "49d13d",
         "Country": "Czech Republic",
-        "Velocity": 233.82,
-        "Altitude": 7581.9
-    },
-    {
-        "ICAO24": "342211",
-        "Country": "Spain",
-        "Velocity": 220.51,
-        "Altitude": 10469.88
-    },
-    {
-        "ICAO24": "342210",
-        "Country": "Spain",
-        "Velocity": 73.76,
-        "Altitude": 175.26
+        "Velocity": 81.54,
+        "Altitude": 868.68
     },
     {
         "ICAO24": "3f9c84",
         "Country": "Germany",
-        "Velocity": 84.74,
-        "Altitude": 662.94
+        "Velocity": 86.74,
+        "Altitude": 670.56
     },
     {
         "ICAO24": "406c71",
         "Country": "United Kingdom",
-        "Velocity": 216.91,
+        "Velocity": 221.52,
         "Altitude": 11308.08
+    },
+    {
+        "ICAO24": "407f7b",
+        "Country": "United Kingdom",
+        "Velocity": 249.15,
+        "Altitude": 11071.86
     },
     {
         "ICAO24": "407f7a",
         "Country": "United Kingdom",
-        "Velocity": 239.76,
-        "Altitude": 11650.98
+        "Velocity": 248.83,
+        "Altitude": 11696.7
     },
     {
         "ICAO24": "3d1525",
         "Country": "Germany",
-        "Velocity": 44.62,
-        "Altitude": 533.4
+        "Velocity": 51.45,
+        "Altitude": 777.24
     },
     {
-        "ICAO24": "406c39",
+        "ICAO24": "407f62",
         "Country": "United Kingdom",
-        "Velocity": 267.18,
-        "Altitude": 12283.44
-    },
-    {
-        "ICAO24": "48c2ab",
-        "Country": "Poland",
-        "Velocity": 225.3,
-        "Altitude": 11361.42
-    },
-    {
-        "ICAO24": "48c2ac",
-        "Country": "Poland",
-        "Velocity": 248.53,
-        "Altitude": 12237.72
+        "Velocity": 257.45,
+        "Altitude": 11689.08
     },
     {
         "ICAO24": "48c2b1",
         "Country": "Poland",
-        "Velocity": 221.96,
-        "Altitude": 11917.68
+        "Velocity": 226.94,
+        "Altitude": 11902.44
     },
     {
         "ICAO24": "48c2b2",
         "Country": "Poland",
-        "Velocity": 226.3,
-        "Altitude": 10751.82
+        "Velocity": 229.1,
+        "Altitude": 10728.96
     },
     {
         "ICAO24": "4b302d",
         "Country": "Switzerland",
-        "Velocity": 71.65,
+        "Velocity": 69.45,
         "Altitude": 2407.92
     },
     {
         "ICAO24": "48c2a9",
         "Country": "Poland",
-        "Velocity": 226.68,
-        "Altitude": 11346.18
+        "Velocity": 232.88,
+        "Altitude": 11308.08
     },
     {
         "ICAO24": "48c2a4",
         "Country": "Poland",
-        "Velocity": 248.33,
-        "Altitude": 12268.2
+        "Velocity": 253.4,
+        "Altitude": 12313.92
     },
     {
         "ICAO24": "3d27e5",
         "Country": "Germany",
-        "Velocity": 9.71,
+        "Velocity": 42.71,
         "Altitude": 0
-    },
-    {
-        "ICAO24": "48c2a0",
-        "Country": "Poland",
-        "Velocity": 220.6,
-        "Altitude": 11064.24
-    },
-    {
-        "ICAO24": "49d006",
-        "Country": "Czech Republic",
-        "Velocity": 208.14,
-        "Altitude": 11696.7
     },
     {
         "ICAO24": "4b303e",
         "Country": "Switzerland",
-        "Velocity": 41.24,
-        "Altitude": 624.84
+        "Velocity": 33.63,
+        "Altitude": 472.44
     },
     {
         "ICAO24": "45ab50",
         "Country": "Denmark",
-        "Velocity": 245.43,
-        "Altitude": 9212.58
+        "Velocity": 228.87,
+        "Altitude": 11612.88
     },
     {
         "ICAO24": "49d034",
         "Country": "Czech Republic",
-        "Velocity": 6.43,
-        "Altitude": 0
+        "Velocity": 226.45,
+        "Altitude": 9677.4
     },
     {
         "ICAO24": "503c92",
         "Country": "Lithuania",
-        "Velocity": 131.26,
-        "Altitude": 2529.84
+        "Velocity": 3.09,
+        "Altitude": 0
     },
     {
         "ICAO24": "3d27d2",
         "Country": "Germany",
-        "Velocity": 51.3,
+        "Velocity": 35.68,
         "Altitude": 0
+    },
+    {
+        "ICAO24": "45ab28",
+        "Country": "Denmark",
+        "Velocity": 231.69,
+        "Altitude": 8404.86
+    },
+    {
+        "ICAO24": "3febfc",
+        "Country": "Germany",
+        "Velocity": 63.04,
+        "Altitude": 662.94
     },
     {
         "ICAO24": "47a185",
         "Country": "Norway",
-        "Velocity": 239.06,
-        "Altitude": 11925.3
+        "Velocity": 234.4,
+        "Altitude": 11887.2
+    },
+    {
+        "ICAO24": "48c132",
+        "Country": "Poland",
+        "Velocity": 231.95,
+        "Altitude": 11582.4
     },
     {
         "ICAO24": "48c124",
         "Country": "Poland",
-        "Velocity": 226.32,
-        "Altitude": 9502.14
+        "Velocity": 246.27,
+        "Altitude": 12252.96
     },
     {
         "ICAO24": "48c125",
         "Country": "Poland",
-        "Velocity": 214.43,
-        "Altitude": 11285.22
+        "Velocity": 222.21,
+        "Altitude": 11879.58
     },
     {
         "ICAO24": "440499",
         "Country": "Austria",
-        "Velocity": 185.23,
-        "Altitude": 12443.46
-    },
-    {
-        "ICAO24": "3d275b",
-        "Country": "Germany",
-        "Velocity": 38.66,
-        "Altitude": 609.6
-    },
-    {
-        "ICAO24": "3d2711",
-        "Country": "Germany",
-        "Velocity": 32.04,
-        "Altitude": 129.54
-    },
-    {
-        "ICAO24": "407c26",
-        "Country": "United Kingdom",
-        "Velocity": 256.31,
-        "Altitude": 12313.92
-    },
-    {
-        "ICAO24": "3d2722",
-        "Country": "Germany",
-        "Velocity": 75.64,
-        "Altitude": 617.22
+        "Velocity": 217.02,
+        "Altitude": 12573
     },
     {
         "ICAO24": "3feac3",
         "Country": "Germany",
-        "Velocity": 36.26,
-        "Altitude": 883.92
+        "Velocity": 0.51,
+        "Altitude": 114.3
     },
     {
-        "ICAO24": "06a1bb",
-        "Country": "Qatar",
-        "Velocity": 266.81,
-        "Altitude": 11064.24
-    },
-    {
-        "ICAO24": "4bb885",
+        "ICAO24": "4bb85a",
         "Country": "Turkey",
-        "Velocity": 231.87,
-        "Altitude": 11041.38
+        "Velocity": 116.77,
+        "Altitude": 2705.1
     },
     {
         "ICAO24": "4bb875",
         "Country": "Turkey",
-        "Velocity": 216.17,
-        "Altitude": 8900.16
+        "Velocity": 118.76,
+        "Altitude": 2887.98
     },
     {
         "ICAO24": "4bb876",
         "Country": "Turkey",
-        "Velocity": 197.42,
-        "Altitude": 6256.02
+        "Velocity": 238.41,
+        "Altitude": 11041.38
+    },
+    {
+        "ICAO24": "4bb86d",
+        "Country": "Turkey",
+        "Velocity": 0.13,
+        "Altitude": 0
     },
     {
         "ICAO24": "504e85",
         "Country": "Republic of Moldova",
-        "Velocity": 218.4,
-        "Altitude": 11361.42
+        "Velocity": 209.01,
+        "Altitude": 11323.32
     },
     {
-        "ICAO24": "3ffd25",
-        "Country": "Germany",
-        "Velocity": 32.23,
-        "Altitude": 0
+        "ICAO24": "4402ca",
+        "Country": "Austria",
+        "Velocity": 42.33,
+        "Altitude": 1584.96
+    },
+    {
+        "ICAO24": "780970",
+        "Country": "China",
+        "Velocity": 232.25,
+        "Altitude": 11277.6
     },
     {
         "ICAO24": "3ffd21",
         "Country": "Germany",
-        "Velocity": 37.68,
+        "Velocity": 37.91,
         "Altitude": 0
     },
     {
-        "ICAO24": "48c22d",
-        "Country": "Poland",
-        "Velocity": 210.26,
-        "Altitude": 11666.22
+        "ICAO24": "407d5c",
+        "Country": "United Kingdom",
+        "Velocity": 252.44,
+        "Altitude": 11010.9
     },
     {
         "ICAO24": "3d24e0",
         "Country": "Germany",
-        "Velocity": 80.15,
-        "Altitude": 1333.5
+        "Velocity": 77.93,
+        "Altitude": 2148.84
     },
     {
-        "ICAO24": "3d5a48",
+        "ICAO24": "3d24d3",
         "Country": "Germany",
-        "Velocity": 44.94,
-        "Altitude": 167.64
+        "Velocity": 49.26,
+        "Altitude": 1005.84
     },
     {
-        "ICAO24": "48c223",
-        "Country": "Poland",
-        "Velocity": 209.58,
-        "Altitude": 11673.84
+        "ICAO24": "aaade6",
+        "Country": "United States",
+        "Velocity": 196.11,
+        "Altitude": 7581.9
     },
     {
         "ICAO24": "80158c",
         "Country": "India",
-        "Velocity": 209.71,
-        "Altitude": 7924.8
+        "Velocity": 131.38,
+        "Altitude": 1836.42
     },
     {
-        "ICAO24": "3fea69",
-        "Country": "Germany",
-        "Velocity": 60.51,
-        "Altitude": 0
+        "ICAO24": "47a218",
+        "Country": "Norway",
+        "Velocity": 235.28,
+        "Altitude": 11567.16
     },
     {
-        "ICAO24": "06a0e9",
+        "ICAO24": "500556",
+        "Country": "San Marino",
+        "Velocity": 100.44,
+        "Altitude": 495.3
+    },
+    {
+        "ICAO24": "06a0c2",
         "Country": "Qatar",
-        "Velocity": 89.02,
-        "Altitude": 487.68
+        "Velocity": 241.59,
+        "Altitude": 12580.62
     },
     {
         "ICAO24": "88517a",
         "Country": "Thailand",
-        "Velocity": 235.8,
-        "Altitude": 11338.56
-    },
-    {
-        "ICAO24": "3d38a6",
-        "Country": "Germany",
-        "Velocity": 2.31,
-        "Altitude": 0
+        "Velocity": 233.64,
+        "Altitude": 11300.46
     },
     {
         "ICAO24": "39bb25",
         "Country": "France",
-        "Velocity": 245.71,
-        "Altitude": 11612.88
+        "Velocity": 223.42,
+        "Altitude": 7627.62
     },
     {
         "ICAO24": "39bb26",
         "Country": "France",
-        "Velocity": 215.12,
-        "Altitude": 9174.48
-    },
-    {
-        "ICAO24": "885171",
-        "Country": "Thailand",
-        "Velocity": 78.46,
-        "Altitude": 548.64
+        "Velocity": 220.08,
+        "Altitude": 10660.38
     },
     {
         "ICAO24": "3ffcda",
         "Country": "Germany",
-        "Velocity": 49.4,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "4403f0",
-        "Country": "Austria",
-        "Velocity": 25.72,
+        "Velocity": 32.08,
         "Altitude": 0
     },
     {
         "ICAO24": "4b1817",
         "Country": "Switzerland",
-        "Velocity": 8.23,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "4b1812",
-        "Country": "Switzerland",
-        "Velocity": 15.43,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "399543",
-        "Country": "France",
-        "Velocity": 106.52,
-        "Altitude": 1623.06
+        "Velocity": 192.9,
+        "Altitude": 10767.06
     },
     {
         "ICAO24": "4952d0",
         "Country": "Portugal",
-        "Velocity": 247.74,
-        "Altitude": 8092.44
+        "Velocity": 222.74,
+        "Altitude": 11864.34
+    },
+    {
+        "ICAO24": "4952d1",
+        "Country": "Portugal",
+        "Velocity": 252.63,
+        "Altitude": 12016.74
     },
     {
         "ICAO24": "4b183f",
         "Country": "Switzerland",
-        "Velocity": 218.85,
-        "Altitude": 12123.42
+        "Velocity": 185.57,
+        "Altitude": 4861.56
     },
     {
-        "ICAO24": "3c6677",
+        "ICAO24": "3c6678",
         "Country": "Germany",
-        "Velocity": 136.35,
-        "Altitude": 2141.22
+        "Velocity": 196.36,
+        "Altitude": 6690.36
     },
     {
         "ICAO24": "3c666e",
         "Country": "Germany",
-        "Velocity": 203.16,
-        "Altitude": 4008.12
+        "Velocity": 13.89,
+        "Altitude": 0
     },
     {
         "ICAO24": "3c666c",
         "Country": "Germany",
-        "Velocity": 224.36,
-        "Altitude": 10111.74
+        "Velocity": 180.22,
+        "Altitude": 4343.4
     },
     {
         "ICAO24": "3c666b",
         "Country": "Germany",
-        "Velocity": 214.68,
-        "Altitude": 7239
+        "Velocity": 73.57,
+        "Altitude": 670.56
     },
     {
         "ICAO24": "3c6676",
         "Country": "Germany",
-        "Velocity": 1.03,
-        "Altitude": 0
+        "Velocity": 215.19,
+        "Altitude": 8519.16
     },
     {
         "ICAO24": "3c6675",
         "Country": "Germany",
-        "Velocity": 234.46,
-        "Altitude": 11231.88
+        "Velocity": 218.47,
+        "Altitude": 11269.98
     },
     {
         "ICAO24": "3c65c1",
         "Country": "Germany",
-        "Velocity": 200.07,
-        "Altitude": 6621.78
-    },
-    {
-        "ICAO24": "4b1880",
-        "Country": "Switzerland",
-        "Velocity": 204.34,
-        "Altitude": 6210.3
-    },
-    {
-        "ICAO24": "4b1882",
-        "Country": "Switzerland",
-        "Velocity": 204.64,
-        "Altitude": 5562.6
+        "Velocity": 82.07,
+        "Altitude": 1150.62
     },
     {
         "ICAO24": "3c65d0",
         "Country": "Germany",
-        "Velocity": 181.95,
-        "Altitude": 5433.06
+        "Velocity": 207.06,
+        "Altitude": 7597.14
     },
     {
         "ICAO24": "3c65d4",
         "Country": "Germany",
-        "Velocity": 244.72,
-        "Altitude": 11696.7
+        "Velocity": 252.88,
+        "Altitude": 7635.24
     },
     {
         "ICAO24": "3c65d2",
         "Country": "Germany",
-        "Velocity": 196.3,
-        "Altitude": 5273.04
+        "Velocity": 7.2,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "3c65cf",
+        "Country": "Germany",
+        "Velocity": 264.71,
+        "Altitude": 9220.2
     },
     {
         "ICAO24": "3c65e1",
         "Country": "Germany",
-        "Velocity": 192.63,
-        "Altitude": 5181.6
+        "Velocity": 8.75,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "485993",
+        "Country": "Kingdom of the Netherlands",
+        "Velocity": 45.28,
+        "Altitude": 251.46
     },
     {
         "ICAO24": "477ff3",
         "Country": "Hungary",
-        "Velocity": 204.42,
-        "Altitude": 6362.7
+        "Velocity": 115.96,
+        "Altitude": 1303.02
     },
     {
         "ICAO24": "3c6743",
         "Country": "Germany",
-        "Velocity": 177.24,
-        "Altitude": 4137.66
+        "Velocity": 74.06,
+        "Altitude": 182.88
     },
     {
         "ICAO24": "3c6748",
-        "Country": "Germany",
-        "Velocity": 205.96,
-        "Altitude": 6339.84
-    },
-    {
-        "ICAO24": "3c6742",
-        "Country": "Germany",
-        "Velocity": 221.45,
-        "Altitude": 11262.36
-    },
-    {
-        "ICAO24": "3c6758",
-        "Country": "Germany",
-        "Velocity": 114.47,
-        "Altitude": 1866.9
-    },
-    {
-        "ICAO24": "40805d",
-        "Country": "United Kingdom",
-        "Velocity": 237.15,
-        "Altitude": 10736.58
-    },
-    {
-        "ICAO24": "3c6753",
-        "Country": "Germany",
-        "Velocity": 48.36,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "408064",
-        "Country": "United Kingdom",
-        "Velocity": 231.55,
-        "Altitude": 11308.08
-    },
-    {
-        "ICAO24": "3c675a",
-        "Country": "Germany",
-        "Velocity": 124.37,
-        "Altitude": 1607.82
-    },
-    {
-        "ICAO24": "abb2fe",
-        "Country": "United States",
-        "Velocity": 175.93,
-        "Altitude": 3489.96
-    },
-    {
-        "ICAO24": "a4aae2",
-        "Country": "United States",
-        "Velocity": 82.93,
-        "Altitude": 2545.08
-    },
-    {
-        "ICAO24": "440cac",
-        "Country": "Austria",
-        "Velocity": 224.85,
-        "Altitude": 11361.42
-    },
-    {
-        "ICAO24": "a1fc2b",
-        "Country": "United States",
-        "Velocity": 1.54,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "3c6584",
         "Country": "Germany",
         "Velocity": 70.96,
         "Altitude": 556.26
     },
     {
+        "ICAO24": "3c6742",
+        "Country": "Germany",
+        "Velocity": 180.23,
+        "Altitude": 6591.3
+    },
+    {
+        "ICAO24": "3c6758",
+        "Country": "Germany",
+        "Velocity": 202.9,
+        "Altitude": 8625.84
+    },
+    {
+        "ICAO24": "3c674a",
+        "Country": "Germany",
+        "Velocity": 234.86,
+        "Altitude": 7147.56
+    },
+    {
+        "ICAO24": "40805d",
+        "Country": "United Kingdom",
+        "Velocity": 235.67,
+        "Altitude": 10683.24
+    },
+    {
+        "ICAO24": "abb2fe",
+        "Country": "United States",
+        "Velocity": 7.72,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "40803c",
+        "Country": "United Kingdom",
+        "Velocity": 234.6,
+        "Altitude": 11582.4
+    },
+    {
+        "ICAO24": "a4aae2",
+        "Country": "United States",
+        "Velocity": 85.89,
+        "Altitude": 2552.7
+    },
+    {
+        "ICAO24": "a1fc2b",
+        "Country": "United States",
+        "Velocity": 43.88,
+        "Altitude": 259.08
+    },
+    {
+        "ICAO24": "4008b5",
+        "Country": "United Kingdom",
+        "Velocity": 208.04,
+        "Altitude": 11955.78
+    },
+    {
+        "ICAO24": "4951cc",
+        "Country": "Portugal",
+        "Velocity": 72.81,
+        "Altitude": 670.56
+    },
+    {
         "ICAO24": "3c6581",
         "Country": "Germany",
-        "Velocity": 217.78,
-        "Altitude": 8884.92
+        "Velocity": 90.45,
+        "Altitude": 1028.7
     },
     {
         "ICAO24": "3c658c",
         "Country": "Germany",
-        "Velocity": 227.31,
-        "Altitude": 8938.26
+        "Velocity": 216.58,
+        "Altitude": 9906
     },
     {
         "ICAO24": "3c658e",
         "Country": "Germany",
-        "Velocity": 190.86,
-        "Altitude": 4632.96
-    },
-    {
-        "ICAO24": "40820e",
-        "Country": "United Kingdom",
-        "Velocity": 250.99,
-        "Altitude": 11087.1
-    },
-    {
-        "ICAO24": "47bf9d",
-        "Country": "Norway",
-        "Velocity": 240.62,
-        "Altitude": 12245.34
+        "Velocity": 140.72,
+        "Altitude": 3238.5
     },
     {
         "ICAO24": "39d30a",
         "Country": "France",
-        "Velocity": 206.96,
-        "Altitude": 11993.88
+        "Velocity": 200.02,
+        "Altitude": 12001.5
     },
     {
-        "ICAO24": "3c7877",
-        "Country": "Germany",
-        "Velocity": 200.25,
-        "Altitude": 6339.84
+        "ICAO24": "4b5da4",
+        "Country": "Switzerland",
+        "Velocity": 0.06,
+        "Altitude": 0
     },
     {
-        "ICAO24": "3c786b",
+        "ICAO24": "4b5da5",
+        "Country": "Switzerland",
+        "Velocity": 4.89,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "3c6543",
         "Country": "Germany",
-        "Velocity": 68.7,
-        "Altitude": 266.7
+        "Velocity": 160.83,
+        "Altitude": 6637.02
+    },
+    {
+        "ICAO24": "3c654d",
+        "Country": "Germany",
+        "Velocity": 212.08,
+        "Altitude": 11323.32
     },
     {
         "ICAO24": "3c654a",
         "Country": "Germany",
-        "Velocity": 184.69,
-        "Altitude": 7048.5
+        "Velocity": 124.1,
+        "Altitude": 1859.28
     },
     {
         "ICAO24": "3d1ba6",
         "Country": "Germany",
-        "Velocity": 50.85,
-        "Altitude": 1120.14
+        "Velocity": 51.26,
+        "Altitude": 1051.56
     },
     {
-        "ICAO24": "39e695",
+        "ICAO24": "3c6550",
+        "Country": "Germany",
+        "Velocity": 68.4,
+        "Altitude": 205.74
+    },
+    {
+        "ICAO24": "39e688",
         "Country": "France",
-        "Velocity": 221.71,
-        "Altitude": 11887.2
+        "Velocity": 256.74,
+        "Altitude": 9806.94
     },
     {
         "ICAO24": "4b5db1",
         "Country": "Switzerland",
-        "Velocity": 1.03,
+        "Velocity": 2.57,
         "Altitude": 0
-    },
-    {
-        "ICAO24": "4b5db2",
-        "Country": "Switzerland",
-        "Velocity": 0.19,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "40823c",
-        "Country": "United Kingdom",
-        "Velocity": 258.63,
-        "Altitude": 12336.78
     },
     {
         "ICAO24": "3c64a6",
         "Country": "Germany",
-        "Velocity": 229.21,
-        "Altitude": 7437.12
+        "Velocity": 241.94,
+        "Altitude": 10431.78
     },
     {
-        "ICAO24": "4080f6",
-        "Country": "United Kingdom",
-        "Velocity": 249.93,
-        "Altitude": 11689.08
+        "ICAO24": "3c64ab",
+        "Country": "Germany",
+        "Velocity": 217.14,
+        "Altitude": 10683.24
     },
     {
-        "ICAO24": "02a1b0",
-        "Country": "Tunisia",
-        "Velocity": 146.83,
-        "Altitude": 1615.44
+        "ICAO24": "3c64aa",
+        "Country": "Germany",
+        "Velocity": 153.85,
+        "Altitude": 2697.48
     },
     {
         "ICAO24": "3d0a55",
         "Country": "Germany",
-        "Velocity": 82.44,
-        "Altitude": 2430.78
+        "Velocity": 87.22,
+        "Altitude": 937.26
     },
     {
-        "ICAO24": "3861ff",
-        "Country": "France",
-        "Velocity": 8.23,
+        "ICAO24": "49410d",
+        "Country": "Portugal",
+        "Velocity": 0,
         "Altitude": 0
     },
     {
-        "ICAO24": "4080e4",
+        "ICAO24": "4080de",
         "Country": "United Kingdom",
-        "Velocity": 244.54,
-        "Altitude": 11635.74
+        "Velocity": 255.14,
+        "Altitude": 11658.6
     },
     {
-        "ICAO24": "4080e2",
+        "ICAO24": "4080e1",
         "Country": "United Kingdom",
-        "Velocity": 256.12,
-        "Altitude": 11689.08
+        "Velocity": 199.96,
+        "Altitude": 12031.98
     },
     {
-        "ICAO24": "494119",
+        "ICAO24": "494104",
         "Country": "Portugal",
-        "Velocity": 209.48,
-        "Altitude": 13517.88
+        "Velocity": 219.73,
+        "Altitude": 12595.86
     },
     {
         "ICAO24": "494107",
         "Country": "Portugal",
-        "Velocity": 132.62,
-        "Altitude": 2133.6
+        "Velocity": 0,
+        "Altitude": 0
     },
     {
         "ICAO24": "4a08ea",
         "Country": "Romania",
-        "Velocity": 213.73,
-        "Altitude": 11902.44
+        "Velocity": 206.36,
+        "Altitude": 5425.44
     },
     {
         "ICAO24": "4a08ed",
         "Country": "Romania",
-        "Velocity": 212.19,
-        "Altitude": 11346.18
+        "Velocity": 211.69,
+        "Altitude": 10927.08
     },
     {
-        "ICAO24": "3c6643",
-        "Country": "Germany",
-        "Velocity": 98.8,
-        "Altitude": 1447.8
+        "ICAO24": "4b15ee",
+        "Country": "Switzerland",
+        "Velocity": 5.92,
+        "Altitude": 0
     },
     {
         "ICAO24": "3c6655",
         "Country": "Germany",
-        "Velocity": 238.81,
-        "Altitude": 9829.8
+        "Velocity": 216.84,
+        "Altitude": 7932.42
     },
     {
         "ICAO24": "7103d8",
         "Country": "Saudi Arabia",
-        "Velocity": 271.39,
-        "Altitude": 11056.62
+        "Velocity": 269.66,
+        "Altitude": 11087.1
     },
     {
-        "ICAO24": "4b5d9b",
+        "ICAO24": "3d0a9b",
+        "Country": "Germany",
+        "Velocity": 38.31,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "4b5d9f",
         "Country": "Switzerland",
-        "Velocity": 0.06,
+        "Velocity": 8.75,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "4b5d9c",
+        "Country": "Switzerland",
+        "Velocity": 2.06,
         "Altitude": 0
     },
     {
         "ICAO24": "3c6484",
         "Country": "Germany",
-        "Velocity": 106.69,
-        "Altitude": 1485.9
+        "Velocity": 220.25,
+        "Altitude": 11315.7
     },
     {
         "ICAO24": "3c648c",
         "Country": "Germany",
-        "Velocity": 230.71,
-        "Altitude": 10942.32
-    },
-    {
-        "ICAO24": "3c648b",
-        "Country": "Germany",
-        "Velocity": 19.03,
-        "Altitude": 0
+        "Velocity": 230.31,
+        "Altitude": 9136.38
     },
     {
         "ICAO24": "3c6446",
         "Country": "Germany",
-        "Velocity": 0.51,
-        "Altitude": 0
+        "Velocity": 212.03,
+        "Altitude": 5715
     },
     {
         "ICAO24": "3d1ab9",
         "Country": "Germany",
-        "Velocity": 33.44,
-        "Altitude": 144.78
+        "Velocity": 55.41,
+        "Altitude": 274.32
     },
     {
         "ICAO24": "3c6445",
         "Country": "Germany",
-        "Velocity": 0,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "3c6444",
-        "Country": "Germany",
-        "Velocity": 78.12,
-        "Altitude": 518.16
+        "Velocity": 207.73,
+        "Altitude": 8122.92
     },
     {
         "ICAO24": "3c6442",
         "Country": "Germany",
-        "Velocity": 232.28,
-        "Altitude": 9334.5
+        "Velocity": 83.59,
+        "Altitude": 1196.34
+    },
+    {
+        "ICAO24": "3c644a",
+        "Country": "Germany",
+        "Velocity": 0,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "4b1620",
+        "Country": "Switzerland",
+        "Velocity": 241.3,
+        "Altitude": 10401.3
     },
     {
         "ICAO24": "49514f",
         "Country": "Portugal",
-        "Velocity": 200.8,
-        "Altitude": 7825.74
+        "Velocity": 226.5,
+        "Altitude": 10698.48
     },
     {
-        "ICAO24": "4b027d",
-        "Country": "Switzerland",
-        "Velocity": 6.17,
-        "Altitude": 0
+        "ICAO24": "48449e",
+        "Country": "Kingdom of the Netherlands",
+        "Velocity": 210.06,
+        "Altitude": 11986.26
     },
     {
         "ICAO24": "3de6df",
         "Country": "Germany",
-        "Velocity": 58.9,
-        "Altitude": 1021.08
+        "Velocity": 58.89,
+        "Altitude": 990.6
+    },
+    {
+        "ICAO24": "3de6ac",
+        "Country": "Germany",
+        "Velocity": 77.55,
+        "Altitude": 678.18
     },
     {
         "ICAO24": "ac3f7f",
         "Country": "United States",
-        "Velocity": 194.47,
-        "Altitude": 4427.22
+        "Velocity": 231.17,
+        "Altitude": 12458.7
     },
     {
-        "ICAO24": "38c1ff",
-        "Country": "France",
-        "Velocity": 8.75,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "3d8519",
+        "ICAO24": "3c6523",
         "Country": "Germany",
-        "Velocity": 58.97,
-        "Altitude": 822.96
+        "Velocity": 74.48,
+        "Altitude": 784.86
     },
     {
-        "ICAO24": "3c6521",
-        "Country": "Germany",
-        "Velocity": 143.79,
-        "Altitude": 3192.78
-    },
-    {
-        "ICAO24": "4951d6",
+        "ICAO24": "4951d5",
         "Country": "Portugal",
-        "Velocity": 0,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "4951d9",
-        "Country": "Portugal",
-        "Velocity": 6.94,
-        "Altitude": 0
+        "Velocity": 83.47,
+        "Altitude": 1249.68
     },
     {
         "ICAO24": "400982",
         "Country": "United Kingdom",
-        "Velocity": 243.24,
-        "Altitude": 10980.42
-    },
-    {
-        "ICAO24": "440ca1",
-        "Country": "Austria",
-        "Velocity": 130.89,
-        "Altitude": 8199.12
+        "Velocity": 103.94,
+        "Altitude": 1432.56
     },
     {
         "ICAO24": "408040",
         "Country": "United Kingdom",
-        "Velocity": 252.23,
-        "Altitude": 11643.36
+        "Velocity": 258.14,
+        "Altitude": 11666.22
     },
     {
         "ICAO24": "408033",
         "Country": "United Kingdom",
-        "Velocity": 239.31,
-        "Altitude": 11612.88
+        "Velocity": 249.9,
+        "Altitude": 11666.22
     },
     {
         "ICAO24": "408034",
         "Country": "United Kingdom",
-        "Velocity": 252.63,
-        "Altitude": 11620.5
-    },
-    {
-        "ICAO24": "3dd389",
-        "Country": "Germany",
-        "Velocity": 39.78,
-        "Altitude": 236.22
-    },
-    {
-        "ICAO24": "440d70",
-        "Country": "Austria",
-        "Velocity": 214.72,
-        "Altitude": 8938.26
-    },
-    {
-        "ICAO24": "440d71",
-        "Country": "Austria",
-        "Velocity": 217.45,
-        "Altitude": 11902.44
-    },
-    {
-        "ICAO24": "440d3e",
-        "Country": "Austria",
-        "Velocity": 48.05,
-        "Altitude": 548.64
-    },
-    {
-        "ICAO24": "495217",
-        "Country": "Portugal",
-        "Velocity": 86.23,
-        "Altitude": 609.6
+        "Velocity": 252.61,
+        "Altitude": 11681.46
     },
     {
         "ICAO24": "48455a",
         "Country": "Kingdom of the Netherlands",
-        "Velocity": 203.43,
-        "Altitude": 5219.7
-    },
-    {
-        "ICAO24": "48455d",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 192.3,
-        "Altitude": 6172.2
-    },
-    {
-        "ICAO24": "485873",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 123.33,
-        "Altitude": 1722.12
-    },
-    {
-        "ICAO24": "485870",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 214.68,
-        "Altitude": 10469.88
-    },
-    {
-        "ICAO24": "4b5c1e",
-        "Country": "Switzerland",
-        "Velocity": 3.86,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "4b5c4d",
-        "Country": "Switzerland",
-        "Velocity": 0.06,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "3dd2c9",
-        "Country": "Germany",
-        "Velocity": 60.57,
-        "Altitude": 670.56
-    },
-    {
-        "ICAO24": "4b5c6d",
-        "Country": "Switzerland",
-        "Velocity": 7.2,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "47ba0d",
-        "Country": "Norway",
-        "Velocity": 216.3,
-        "Altitude": 9822.18
-    },
-    {
-        "ICAO24": "4841a6",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 244.59,
-        "Altitude": 8260.08
-    },
-    {
-        "ICAO24": "4bab54",
-        "Country": "Turkey",
-        "Velocity": 241.67,
-        "Altitude": 11597.64
-    },
-    {
-        "ICAO24": "a69f3f",
-        "Country": "United States",
-        "Velocity": 118.35,
-        "Altitude": 7056.12
-    },
-    {
-        "ICAO24": "490d0f",
-        "Country": "Portugal",
-        "Velocity": 240.37,
-        "Altitude": 12862.56
-    },
-    {
-        "ICAO24": "70c125",
-        "Country": "Oman",
-        "Velocity": 250.41,
-        "Altitude": 12534.9
-    },
-    {
-        "ICAO24": "486898",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 9.77,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "486803",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 222.93,
-        "Altitude": 10683.24
-    },
-    {
-        "ICAO24": "4ca8e7",
-        "Country": "Ireland",
-        "Velocity": 263.96,
-        "Altitude": 11681.46
-    },
-    {
-        "ICAO24": "3d2d8f",
-        "Country": "Germany",
-        "Velocity": 47.66,
-        "Altitude": 982.98
-    },
-    {
-        "ICAO24": "3df745",
-        "Country": "Germany",
-        "Velocity": 66.57,
-        "Altitude": 723.9
-    },
-    {
-        "ICAO24": "3c0acb",
-        "Country": "Germany",
-        "Velocity": 188.1,
-        "Altitude": 5859.78
-    },
-    {
-        "ICAO24": "4baa86",
-        "Country": "Turkey",
         "Velocity": 0,
         "Altitude": 0
     },
     {
-        "ICAO24": "49c3e9",
-        "Country": "Czech Republic",
-        "Velocity": 52.93,
+        "ICAO24": "48455f",
+        "Country": "Kingdom of the Netherlands",
+        "Velocity": 241.4,
+        "Altitude": 10728.96
+    },
+    {
+        "ICAO24": "485873",
+        "Country": "Kingdom of the Netherlands",
+        "Velocity": 204.5,
+        "Altitude": 5859.78
+    },
+    {
+        "ICAO24": "485870",
+        "Country": "Kingdom of the Netherlands",
+        "Velocity": 204.08,
+        "Altitude": 8427.72
+    },
+    {
+        "ICAO24": "485874",
+        "Country": "Kingdom of the Netherlands",
+        "Velocity": 217.07,
+        "Altitude": 9395.46
+    },
+    {
+        "ICAO24": "4b5c20",
+        "Country": "Switzerland",
+        "Velocity": 4.63,
         "Altitude": 0
+    },
+    {
+        "ICAO24": "4b5c21",
+        "Country": "Switzerland",
+        "Velocity": 0.13,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "782307",
+        "Country": "China",
+        "Velocity": 241.25,
+        "Altitude": 10652.76
+    },
+    {
+        "ICAO24": "4841a6",
+        "Country": "Kingdom of the Netherlands",
+        "Velocity": 250.95,
+        "Altitude": 8244.84
+    },
+    {
+        "ICAO24": "4bab54",
+        "Country": "Turkey",
+        "Velocity": 247.41,
+        "Altitude": 11650.98
+    },
+    {
+        "ICAO24": "a69f3f",
+        "Country": "United States",
+        "Velocity": 151.05,
+        "Altitude": 8534.4
+    },
+    {
+        "ICAO24": "490d0f",
+        "Country": "Portugal",
+        "Velocity": 233.12,
+        "Altitude": 14165.58
+    },
+    {
+        "ICAO24": "4867c4",
+        "Country": "Kingdom of the Netherlands",
+        "Velocity": 237.59,
+        "Altitude": 10157.46
+    },
+    {
+        "ICAO24": "3de585",
+        "Country": "Germany",
+        "Velocity": 42.3,
+        "Altitude": 236.22
+    },
+    {
+        "ICAO24": "486898",
+        "Country": "Kingdom of the Netherlands",
+        "Velocity": 220.89,
+        "Altitude": 10805.16
+    },
+    {
+        "ICAO24": "486803",
+        "Country": "Kingdom of the Netherlands",
+        "Velocity": 196.79,
+        "Altitude": 4732.02
+    },
+    {
+        "ICAO24": "3c0acb",
+        "Country": "Germany",
+        "Velocity": 84.96,
+        "Altitude": 647.7
+    },
+    {
+        "ICAO24": "4baa86",
+        "Country": "Turkey",
+        "Velocity": 156.52,
+        "Altitude": 2682.24
+    },
+    {
+        "ICAO24": "49c3d2",
+        "Country": "Czech Republic",
+        "Velocity": 55.91,
+        "Altitude": 1432.56
     },
     {
         "ICAO24": "70c0fd",
         "Country": "Oman",
-        "Velocity": 229.83,
-        "Altitude": 11932.92
+        "Velocity": 240.84,
+        "Altitude": 11894.82
     },
     {
         "ICAO24": "70c0fb",
         "Country": "Oman",
-        "Velocity": 155.22,
-        "Altitude": 3741.42
+        "Velocity": 4.12,
+        "Altitude": 0
     },
     {
         "ICAO24": "4868f8",
         "Country": "Kingdom of the Netherlands",
-        "Velocity": 224.58,
-        "Altitude": 11384.28
+        "Velocity": 225.82,
+        "Altitude": 11330.94
+    },
+    {
+        "ICAO24": "4868f7",
+        "Country": "Kingdom of the Netherlands",
+        "Velocity": 226.99,
+        "Altitude": 11277.6
+    },
+    {
+        "ICAO24": "49c3ea",
+        "Country": "Czech Republic",
+        "Velocity": 42.97,
+        "Altitude": 480.06
     },
     {
         "ICAO24": "4ca912",
         "Country": "Ireland",
-        "Velocity": 224.48,
-        "Altitude": 8823.96
+        "Velocity": 90.94,
+        "Altitude": 990.6
+    },
+    {
+        "ICAO24": "7823a6",
+        "Country": "China",
+        "Velocity": 247.16,
+        "Altitude": 11894.82
     },
     {
         "ICAO24": "4868a6",
         "Country": "Kingdom of the Netherlands",
-        "Velocity": 213.49,
-        "Altitude": 11910.06
+        "Velocity": 217.86,
+        "Altitude": 11902.44
     },
     {
-        "ICAO24": "4ca84f",
+        "ICAO24": "45d06e",
+        "Country": "Denmark",
+        "Velocity": 233.11,
+        "Altitude": 11567.16
+    },
+    {
+        "ICAO24": "4ca892",
         "Country": "Ireland",
-        "Velocity": 187.11,
-        "Altitude": 3878.58
+        "Velocity": 243.7,
+        "Altitude": 11696.7
     },
     {
-        "ICAO24": "4bbd10",
-        "Country": "Turkey",
-        "Velocity": 239.11,
-        "Altitude": 10980.42
+        "ICAO24": "501dd0",
+        "Country": "Croatia",
+        "Velocity": 164.98,
+        "Altitude": 7665.72
     },
     {
         "ICAO24": "4bbd13",
         "Country": "Turkey",
-        "Velocity": 245.32,
-        "Altitude": 11643.36
+        "Velocity": 246.99,
+        "Altitude": 12275.82
     },
     {
         "ICAO24": "4bbd0d",
         "Country": "Turkey",
-        "Velocity": 218.33,
-        "Altitude": 11323.32
+        "Velocity": 185.63,
+        "Altitude": 4442.46
     },
     {
         "ICAO24": "3d0917",
         "Country": "Germany",
-        "Velocity": 65.4,
-        "Altitude": 1775.46
+        "Velocity": 5.92,
+        "Altitude": 0
     },
     {
         "ICAO24": "5084e3",
         "Country": "Ukraine",
-        "Velocity": 209.17,
-        "Altitude": 7292.34
+        "Velocity": 209.47,
+        "Altitude": 11719.56
     },
     {
         "ICAO24": "49d5ee",
         "Country": "Czech Republic",
-        "Velocity": 165.4,
-        "Altitude": 3535.68
-    },
-    {
-        "ICAO24": "3d0948",
-        "Country": "Germany",
-        "Velocity": 34.82,
-        "Altitude": 251.46
+        "Velocity": 0.19,
+        "Altitude": 0
     },
     {
         "ICAO24": "3c1cb6",
@@ -2334,496 +2214,538 @@
         "Altitude": 0
     },
     {
+        "ICAO24": "4ca6fb",
+        "Country": "Ireland",
+        "Velocity": 246.22,
+        "Altitude": 12260.58
+    },
+    {
+        "ICAO24": "3e167c",
+        "Country": "Germany",
+        "Velocity": 51.03,
+        "Altitude": 472.44
+    },
+    {
         "ICAO24": "4ca804",
         "Country": "Ireland",
-        "Velocity": 219.94,
-        "Altitude": 11971.02
+        "Velocity": 219.22,
+        "Altitude": 6941.82
+    },
+    {
+        "ICAO24": "3e1680",
+        "Country": "Germany",
+        "Velocity": 53.2,
+        "Altitude": 411.48
+    },
+    {
+        "ICAO24": "70605a",
+        "Country": "Kuwait",
+        "Velocity": 256.96,
+        "Altitude": 10355.58
     },
     {
         "ICAO24": "4ca80e",
         "Country": "Ireland",
-        "Velocity": 0.06,
-        "Altitude": 0
+        "Velocity": 235.89,
+        "Altitude": 10957.56
     },
     {
-        "ICAO24": "3e1679",
+        "ICAO24": "3e1689",
         "Country": "Germany",
-        "Velocity": 33.83,
-        "Altitude": 160.02
+        "Velocity": 56,
+        "Altitude": 1181.1
+    },
+    {
+        "ICAO24": "3e1681",
+        "Country": "Germany",
+        "Velocity": 50.22,
+        "Altitude": 312.42
     },
     {
         "ICAO24": "501d18",
         "Country": "Croatia",
-        "Velocity": 214.98,
-        "Altitude": 12009.12
+        "Velocity": 213.25,
+        "Altitude": 11986.26
+    },
+    {
+        "ICAO24": "3d08df",
+        "Country": "Germany",
+        "Velocity": 40.98,
+        "Altitude": 533.4
     },
     {
         "ICAO24": "4bcde6",
         "Country": "Turkey",
-        "Velocity": 220.22,
-        "Altitude": 9700.26
+        "Velocity": 146.49,
+        "Altitude": 2667
     },
     {
         "ICAO24": "4bcdf6",
         "Country": "Turkey",
-        "Velocity": 216.13,
-        "Altitude": 11353.8
+        "Velocity": 221.23,
+        "Altitude": 11010.9
     },
     {
-        "ICAO24": "3d2b0e",
-        "Country": "Germany",
-        "Velocity": 41.72,
-        "Altitude": 121.92
+        "ICAO24": "4bcdf2",
+        "Country": "Turkey",
+        "Velocity": 232.02,
+        "Altitude": 11597.64
     },
     {
         "ICAO24": "3d2b0f",
         "Country": "Germany",
-        "Velocity": 45.1,
+        "Velocity": 47.08,
         "Altitude": 0
-    },
-    {
-        "ICAO24": "486648",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 250.45,
-        "Altitude": 11666.22
     },
     {
         "ICAO24": "4bcdeb",
         "Country": "Turkey",
-        "Velocity": 223.12,
-        "Altitude": 11353.8
+        "Velocity": 223.87,
+        "Altitude": 11323.32
     },
     {
         "ICAO24": "4ca764",
         "Country": "Ireland",
-        "Velocity": 237.91,
-        "Altitude": 11590.02
+        "Velocity": 239.53,
+        "Altitude": 11650.98
     },
     {
-        "ICAO24": "4ca73b",
+        "ICAO24": "4ca738",
         "Country": "Ireland",
-        "Velocity": 129.23,
-        "Altitude": 2080.26
+        "Velocity": 237.32,
+        "Altitude": 11597.64
     },
     {
         "ICAO24": "4ca73d",
         "Country": "Ireland",
-        "Velocity": 223.57,
-        "Altitude": 11269.98
-    },
-    {
-        "ICAO24": "3cd5ae",
-        "Country": "Germany",
-        "Velocity": 60.6,
-        "Altitude": 175.26
+        "Velocity": 232.2,
+        "Altitude": 11658.6
     },
     {
         "ICAO24": "4bcde5",
         "Country": "Turkey",
-        "Velocity": 210.63,
-        "Altitude": 8351.52
+        "Velocity": 76.23,
+        "Altitude": 662.94
     },
     {
-        "ICAO24": "3d08c5",
-        "Country": "Germany",
-        "Velocity": 49.48,
-        "Altitude": 762
-    },
-    {
-        "ICAO24": "4866de",
+        "ICAO24": "4864ea",
         "Country": "Kingdom of the Netherlands",
-        "Velocity": 240.88,
-        "Altitude": 11696.7
+        "Velocity": 181.89,
+        "Altitude": 6042.66
+    },
+    {
+        "ICAO24": "48ea01",
+        "Country": "Poland",
+        "Velocity": 227,
+        "Altitude": 11384.28
+    },
+    {
+        "ICAO24": "501c43",
+        "Country": "Croatia",
+        "Velocity": 234.32,
+        "Altitude": 11590.02
     },
     {
         "ICAO24": "501c2d",
         "Country": "Croatia",
-        "Velocity": 136.44,
-        "Altitude": 2057.4
+        "Velocity": 6.69,
+        "Altitude": 0
     },
     {
-        "ICAO24": "49d4c6",
-        "Country": "Czech Republic",
-        "Velocity": 53.23,
-        "Altitude": 1143
-    },
-    {
-        "ICAO24": "501c5a",
-        "Country": "Croatia",
-        "Velocity": 258.97,
-        "Altitude": 12298.68
-    },
-    {
-        "ICAO24": "48418a",
+        "ICAO24": "48418d",
         "Country": "Kingdom of the Netherlands",
-        "Velocity": 236.29,
-        "Altitude": 11056.62
+        "Velocity": 225.07,
+        "Altitude": 11346.18
+    },
+    {
+        "ICAO24": "3cc24f",
+        "Country": "Germany",
+        "Velocity": 206.32,
+        "Altitude": 7597.14
     },
     {
         "ICAO24": "4bcda9",
         "Country": "Turkey",
-        "Velocity": 186.66,
-        "Altitude": 6537.96
+        "Velocity": 28.81,
+        "Altitude": 0
     },
     {
-        "ICAO24": "4bcdb2",
+        "ICAO24": "4bcda5",
         "Country": "Turkey",
-        "Velocity": 209.67,
-        "Altitude": 8610.6
+        "Velocity": 4.89,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "4bcdb6",
+        "Country": "Turkey",
+        "Velocity": 0,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "4bcdb3",
+        "Country": "Turkey",
+        "Velocity": 219.47,
+        "Altitude": 10767.06
     },
     {
         "ICAO24": "49d600",
         "Country": "Czech Republic",
-        "Velocity": 33.1,
-        "Altitude": 426.72
-    },
-    {
-        "ICAO24": "484131",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 220.86,
-        "Altitude": 11963.4
+        "Velocity": 31.7,
+        "Altitude": 441.96
     },
     {
         "ICAO24": "486769",
         "Country": "Kingdom of the Netherlands",
-        "Velocity": 58.36,
-        "Altitude": 754.38
+        "Velocity": 42.11,
+        "Altitude": 76.2
+    },
+    {
+        "ICAO24": "4ca645",
+        "Country": "Ireland",
+        "Velocity": 24.69,
+        "Altitude": 0
     },
     {
         "ICAO24": "4bccab",
         "Country": "Turkey",
-        "Velocity": 212.12,
-        "Altitude": 7307.58
+        "Velocity": 78.79,
+        "Altitude": 571.5
+    },
+    {
+        "ICAO24": "4bccb9",
+        "Country": "Turkey",
+        "Velocity": 205.34,
+        "Altitude": 11971.02
     },
     {
         "ICAO24": "4bccb5",
         "Country": "Turkey",
-        "Velocity": 233.55,
-        "Altitude": 10553.7
+        "Velocity": 121.99,
+        "Altitude": 2255.52
     },
     {
         "ICAO24": "4bccae",
         "Country": "Turkey",
-        "Velocity": 213.76,
-        "Altitude": 11658.6
+        "Velocity": 188.98,
+        "Altitude": 6248.4
     },
     {
-        "ICAO24": "49d65c",
-        "Country": "Czech Republic",
-        "Velocity": 50.12,
-        "Altitude": 769.62
+        "ICAO24": "4bccad",
+        "Country": "Turkey",
+        "Velocity": 202.2,
+        "Altitude": 11376.66
     },
     {
         "ICAO24": "353606",
         "Country": "Spain",
-        "Velocity": 2.83,
-        "Altitude": 0
+        "Velocity": 99.71,
+        "Altitude": 3482.34
     },
     {
         "ICAO24": "49d68d",
         "Country": "Czech Republic",
-        "Velocity": 37.5,
-        "Altitude": 762
+        "Velocity": 34.47,
+        "Altitude": 944.88
     },
     {
         "ICAO24": "3d3d69",
         "Country": "Germany",
-        "Velocity": 57.89,
-        "Altitude": 792.48
+        "Velocity": 69.86,
+        "Altitude": 1706.88
     },
     {
         "ICAO24": "4bce08",
         "Country": "Turkey",
-        "Velocity": 207.07,
-        "Altitude": 11963.4
+        "Velocity": 208.29,
+        "Altitude": 11932.92
     },
     {
         "ICAO24": "4bce06",
         "Country": "Turkey",
-        "Velocity": 0.9,
-        "Altitude": 0
+        "Velocity": 222.07,
+        "Altitude": 5913.12
     },
     {
         "ICAO24": "4bce05",
         "Country": "Turkey",
-        "Velocity": 5.66,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "4bce03",
-        "Country": "Turkey",
-        "Velocity": 245.99,
-        "Altitude": 11056.62
+        "Velocity": 263.15,
+        "Altitude": 9098.28
     },
     {
         "ICAO24": "4bce01",
         "Country": "Turkey",
-        "Velocity": 209.13,
-        "Altitude": 11963.4
-    },
-    {
-        "ICAO24": "4bce13",
-        "Country": "Turkey",
-        "Velocity": 179.61,
-        "Altitude": 3619.5
+        "Velocity": 227.17,
+        "Altitude": 11010.9
     },
     {
         "ICAO24": "45a344",
         "Country": "Denmark",
-        "Velocity": 77.07,
-        "Altitude": 1005.84
+        "Velocity": 74,
+        "Altitude": 967.74
     },
     {
-        "ICAO24": "4d0119",
-        "Country": "Luxembourg",
-        "Velocity": 6.17,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "407666",
+        "ICAO24": "400e14",
         "Country": "United Kingdom",
-        "Velocity": 201.4,
-        "Altitude": 11399.52
+        "Velocity": 250.2,
+        "Altitude": 11650.98
+    },
+    {
+        "ICAO24": "407642",
+        "Country": "United Kingdom",
+        "Velocity": 237.23,
+        "Altitude": 11590.02
+    },
+    {
+        "ICAO24": "40768a",
+        "Country": "United Kingdom",
+        "Velocity": 238.35,
+        "Altitude": 11612.88
     },
     {
         "ICAO24": "459a65",
         "Country": "Denmark",
-        "Velocity": 185.25,
-        "Altitude": 8519.16
+        "Velocity": 188.61,
+        "Altitude": 8542.02
     },
     {
-        "ICAO24": "3c4965",
-        "Country": "Germany",
-        "Velocity": 176.24,
-        "Altitude": 6903.72
+        "ICAO24": "3950cf",
+        "Country": "France",
+        "Velocity": 223.21,
+        "Altitude": 10507.98
     },
     {
-        "ICAO24": "48ad09",
-        "Country": "Poland",
-        "Velocity": 107.6,
-        "Altitude": 975.36
-    },
-    {
-        "ICAO24": "48ad08",
-        "Country": "Poland",
-        "Velocity": 80.27,
-        "Altitude": 815.34
-    },
-    {
-        "ICAO24": "34750f",
-        "Country": "Spain",
-        "Velocity": 1.29,
-        "Altitude": 0
+        "ICAO24": "40766d",
+        "Country": "United Kingdom",
+        "Velocity": 257.74,
+        "Altitude": 11620.5
     },
     {
         "ICAO24": "3ff981",
         "Country": "Germany",
-        "Velocity": 36.38,
-        "Altitude": 373.38
+        "Velocity": 35.54,
+        "Altitude": 228.6
+    },
+    {
+        "ICAO24": "3d4332",
+        "Country": "Germany",
+        "Velocity": 71.39,
+        "Altitude": 792.48
+    },
+    {
+        "ICAO24": "06e010",
+        "Country": "Rwanda",
+        "Velocity": 226.16,
+        "Altitude": 9395.46
     },
     {
         "ICAO24": "8966a9",
         "Country": "United Arab Emirates",
-        "Velocity": 198.9,
-        "Altitude": 7018.02
+        "Velocity": 14.92,
+        "Altitude": 0
     },
     {
-        "ICAO24": "48ada0",
-        "Country": "Poland",
-        "Velocity": 246.39,
-        "Altitude": 10782.3
-    },
-    {
-        "ICAO24": "4cafd0",
+        "ICAO24": "4cafc0",
         "Country": "Ireland",
-        "Velocity": 218.84,
-        "Altitude": 11376.66
+        "Velocity": 209.58,
+        "Altitude": 11986.26
     },
     {
         "ICAO24": "3d4179",
         "Country": "Germany",
-        "Velocity": 42.42,
-        "Altitude": 533.4
+        "Velocity": 62.39,
+        "Altitude": 510.54
     },
     {
         "ICAO24": "3ff6c5",
         "Country": "Germany",
-        "Velocity": 37.1,
-        "Altitude": 251.46
+        "Velocity": 5.4,
+        "Altitude": 0
     },
     {
-        "ICAO24": "484b90",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 133.27,
-        "Altitude": 2499.36
+        "ICAO24": "3007ee",
+        "Country": "Italy",
+        "Velocity": 192,
+        "Altitude": 8046.72
     },
     {
-        "ICAO24": "868078",
-        "Country": "Japan",
-        "Velocity": 255.44,
-        "Altitude": 9776.46
+        "ICAO24": "01023a",
+        "Country": "Egypt",
+        "Velocity": 3.34,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "3ccc7f",
+        "Country": "Germany",
+        "Velocity": 224.61,
+        "Altitude": 9761.22
+    },
+    {
+        "ICAO24": "01022d",
+        "Country": "Egypt",
+        "Velocity": 111.1,
+        "Altitude": 1920.24
+    },
+    {
+        "ICAO24": "4b95b2",
+        "Country": "Turkey",
+        "Velocity": 216.67,
+        "Altitude": 13495.02
     },
     {
         "ICAO24": "3e8819",
         "Country": "Germany",
-        "Velocity": 144.15,
-        "Altitude": 8442.96
+        "Velocity": 153.25,
+        "Altitude": 7856.22
+    },
+    {
+        "ICAO24": "4b1a2f",
+        "Country": "Switzerland",
+        "Velocity": 0,
+        "Altitude": 0
     },
     {
         "ICAO24": "4b1a2b",
         "Country": "Switzerland",
-        "Velocity": 227.87,
-        "Altitude": 11064.24
-    },
-    {
-        "ICAO24": "48ae01",
-        "Country": "Poland",
-        "Velocity": 242.65,
-        "Altitude": 11879.58
+        "Velocity": 227.72,
+        "Altitude": 11940.54
     },
     {
         "ICAO24": "4b1a34",
         "Country": "Switzerland",
-        "Velocity": 187.91,
-        "Altitude": 6758.94
+        "Velocity": 1.03,
+        "Altitude": 0
     },
     {
-        "ICAO24": "4b1a25",
+        "ICAO24": "4b1a65",
         "Country": "Switzerland",
-        "Velocity": 79.62,
-        "Altitude": 449.58
-    },
-    {
-        "ICAO24": "4d24ca",
-        "Country": "Malta",
-        "Velocity": 74.99,
-        "Altitude": 175.26
-    },
-    {
-        "ICAO24": "4b1a67",
-        "Country": "Switzerland",
-        "Velocity": 153.84,
-        "Altitude": 3665.22
+        "Velocity": 0,
+        "Altitude": 0
     },
     {
         "ICAO24": "407731",
         "Country": "United Kingdom",
-        "Velocity": 233.68,
-        "Altitude": 11605.26
+        "Velocity": 243.48,
+        "Altitude": 11658.6
     },
     {
         "ICAO24": "76ceed",
         "Country": "Singapore",
-        "Velocity": 236.26,
-        "Altitude": 11346.18
+        "Velocity": 233.48,
+        "Altitude": 11308.08
     },
     {
-        "ICAO24": "461e1f",
-        "Country": "Finland",
-        "Velocity": 232.1,
-        "Altitude": 12466.32
+        "ICAO24": "507c4c",
+        "Country": "Uzbekistan",
+        "Velocity": 260.54,
+        "Altitude": 12816.84
     },
     {
         "ICAO24": "3ff866",
         "Country": "Germany",
-        "Velocity": 69.25,
+        "Velocity": 68.92,
         "Altitude": 0
     },
     {
-        "ICAO24": "4075e0",
-        "Country": "United Kingdom",
-        "Velocity": 234.52,
-        "Altitude": 11049
+        "ICAO24": "4d24ea",
+        "Country": "Malta",
+        "Velocity": 111.44,
+        "Altitude": 1424.94
     },
     {
         "ICAO24": "44a8a6",
         "Country": "Belgium",
-        "Velocity": 216.71,
-        "Altitude": 11940.54
+        "Velocity": 200.56,
+        "Altitude": 6309.36
     },
     {
-        "ICAO24": "4a0d12",
-        "Country": "Romania",
-        "Velocity": 145.14,
-        "Altitude": 2674.62
+        "ICAO24": "4d250b",
+        "Country": "Malta",
+        "Velocity": 192.32,
+        "Altitude": 8366.76
     },
     {
-        "ICAO24": "407464",
-        "Country": "United Kingdom",
-        "Velocity": 248.61,
-        "Altitude": 12306.3
+        "ICAO24": "3ee998",
+        "Country": "Germany",
+        "Velocity": 32.38,
+        "Altitude": 1173.48
+    },
+    {
+        "ICAO24": "4b1a01",
+        "Country": "Switzerland",
+        "Velocity": 103.67,
+        "Altitude": 1607.82
     },
     {
         "ICAO24": "400b82",
         "Country": "United Kingdom",
-        "Velocity": 226.98,
-        "Altitude": 10546.08
+        "Velocity": 224.48,
+        "Altitude": 11308.08
     },
     {
         "ICAO24": "4caf14",
         "Country": "Ireland",
-        "Velocity": 226.06,
-        "Altitude": 10683.24
+        "Velocity": 192.02,
+        "Altitude": 5509.26
     },
     {
-        "ICAO24": "3ff5aa",
+        "ICAO24": "3ff5f4",
         "Country": "Germany",
-        "Velocity": 62.28,
-        "Altitude": 0
+        "Velocity": 52.24,
+        "Altitude": 777.24
     },
     {
-        "ICAO24": "3deb84",
-        "Country": "Germany",
-        "Velocity": 61.81,
-        "Altitude": 487.68
+        "ICAO24": "4d23fc",
+        "Country": "Malta",
+        "Velocity": 232.09,
+        "Altitude": 11574.78
     },
     {
-        "ICAO24": "3ff735",
-        "Country": "Germany",
-        "Velocity": 22.15,
-        "Altitude": 129.54
+        "ICAO24": "4cadbf",
+        "Country": "Ireland",
+        "Velocity": 239.55,
+        "Altitude": 11582.4
+    },
+    {
+        "ICAO24": "4d2414",
+        "Country": "Malta",
+        "Velocity": 119.22,
+        "Altitude": 1630.68
+    },
+    {
+        "ICAO24": "4d2410",
+        "Country": "Malta",
+        "Velocity": 233.83,
+        "Altitude": 11559.54
     },
     {
         "ICAO24": "4d2417",
         "Country": "Malta",
-        "Velocity": 123.01,
-        "Altitude": 2171.7
-    },
-    {
-        "ICAO24": "4d2418",
-        "Country": "Malta",
-        "Velocity": 223.37,
-        "Altitude": 6377.94
-    },
-    {
-        "ICAO24": "4cada6",
-        "Country": "Ireland",
-        "Velocity": 71.71,
-        "Altitude": 594.36
+        "Velocity": 210.09,
+        "Altitude": 9791.7
     },
     {
         "ICAO24": "48ac82",
         "Country": "Poland",
-        "Velocity": 220.6,
-        "Altitude": 11041.38
+        "Velocity": 104.74,
+        "Altitude": 807.72
     },
     {
         "ICAO24": "4cadac",
         "Country": "Ireland",
-        "Velocity": 215.33,
-        "Altitude": 9951.72
+        "Velocity": 234.74,
+        "Altitude": 11650.98
+    },
+    {
+        "ICAO24": "4cadb8",
+        "Country": "Ireland",
+        "Velocity": 236.4,
+        "Altitude": 11376.66
     },
     {
         "ICAO24": "406229",
         "Country": "United Kingdom",
-        "Velocity": 208.55,
-        "Altitude": 11391.9
-    },
-    {
-        "ICAO24": "4d2477",
-        "Country": "Malta",
-        "Velocity": 248.22,
-        "Altitude": 11689.08
+        "Velocity": 213.9,
+        "Altitude": 11346.18
     },
     {
         "ICAO24": "4bd159",
@@ -2832,532 +2754,496 @@
         "Altitude": 0
     },
     {
-        "ICAO24": "3e0a34",
-        "Country": "Germany",
-        "Velocity": 54.88,
-        "Altitude": 563.88
+        "ICAO24": "40753d",
+        "Country": "United Kingdom",
+        "Velocity": 254.8,
+        "Altitude": 11620.5
+    },
+    {
+        "ICAO24": "4cadda",
+        "Country": "Ireland",
+        "Velocity": 198.34,
+        "Altitude": 6324.6
     },
     {
         "ICAO24": "4cadea",
         "Country": "Ireland",
-        "Velocity": 239.75,
-        "Altitude": 11948.16
+        "Velocity": 244.01,
+        "Altitude": 10126.98
     },
     {
-        "ICAO24": "4bd18a",
-        "Country": "Turkey",
-        "Velocity": 10.8,
-        "Altitude": 0
+        "ICAO24": "4d244b",
+        "Country": "Malta",
+        "Velocity": 229.34,
+        "Altitude": 12146.28
     },
     {
-        "ICAO24": "40756c",
-        "Country": "United Kingdom",
-        "Velocity": 243.81,
-        "Altitude": 11681.46
-    },
-    {
-        "ICAO24": "4cae11",
+        "ICAO24": "4cae57",
         "Country": "Ireland",
-        "Velocity": 248.58,
-        "Altitude": 11087.1
+        "Velocity": 147.59,
+        "Altitude": 3040.38
     },
     {
-        "ICAO24": "4cae49",
+        "ICAO24": "3ff4a4",
+        "Country": "Germany",
+        "Velocity": 67.39,
+        "Altitude": 769.62
+    },
+    {
+        "ICAO24": "4cae98",
         "Country": "Ireland",
-        "Velocity": 240.46,
-        "Altitude": 11894.82
+        "Velocity": 241.56,
+        "Altitude": 11582.4
     },
     {
-        "ICAO24": "4b3e95",
-        "Country": "Switzerland",
-        "Velocity": 0.51,
-        "Altitude": 449.58
+        "ICAO24": "4cae91",
+        "Country": "Ireland",
+        "Velocity": 215.01,
+        "Altitude": 11376.66
     },
     {
         "ICAO24": "4073a0",
         "Country": "United Kingdom",
-        "Velocity": 240.11,
-        "Altitude": 11650.98
+        "Velocity": 250.24,
+        "Altitude": 11689.08
     },
     {
         "ICAO24": "4d22af",
         "Country": "Malta",
-        "Velocity": 241.11,
-        "Altitude": 12237.72
+        "Velocity": 243.05,
+        "Altitude": 11353.8
     },
     {
-        "ICAO24": "4cae63",
+        "ICAO24": "4cae69",
         "Country": "Ireland",
-        "Velocity": 251.55,
-        "Altitude": 12283.44
+        "Velocity": 251.05,
+        "Altitude": 12016.74
     },
     {
         "ICAO24": "4d22b6",
         "Country": "Malta",
-        "Velocity": 216.73,
-        "Altitude": 11361.42
+        "Velocity": 206.53,
+        "Altitude": 11315.7
+    },
+    {
+        "ICAO24": "4cae61",
+        "Country": "Ireland",
+        "Velocity": 242.99,
+        "Altitude": 11635.74
     },
     {
         "ICAO24": "4d22b5",
         "Country": "Malta",
-        "Velocity": 227.03,
-        "Altitude": 11376.66
+        "Velocity": 218.35,
+        "Altitude": 11940.54
     },
     {
         "ICAO24": "4d22bf",
         "Country": "Malta",
-        "Velocity": 167.62,
-        "Altitude": 4968.24
-    },
-    {
-        "ICAO24": "4d22bb",
-        "Country": "Malta",
-        "Velocity": 193.63,
-        "Altitude": 7642.86
+        "Velocity": 6.69,
+        "Altitude": 0
     },
     {
         "ICAO24": "4cae9c",
         "Country": "Ireland",
-        "Velocity": 237.19,
-        "Altitude": 11605.26
+        "Velocity": 247.41,
+        "Altitude": 11673.84
     },
     {
         "ICAO24": "3ff466",
         "Country": "Germany",
-        "Velocity": 41.78,
-        "Altitude": 472.44
+        "Velocity": 22.78,
+        "Altitude": 289.56
     },
     {
         "ICAO24": "4cacb0",
         "Country": "Ireland",
-        "Velocity": 225.84,
-        "Altitude": 10675.62
+        "Velocity": 213.32,
+        "Altitude": 8176.26
     },
     {
         "ICAO24": "3c56f6",
         "Country": "Germany",
-        "Velocity": 3.34,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "4cace0",
-        "Country": "Ireland",
-        "Velocity": 228.04,
-        "Altitude": 11879.58
-    },
-    {
-        "ICAO24": "4849eb",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 45.28,
-        "Altitude": 320.04
-    },
-    {
-        "ICAO24": "4d2392",
-        "Country": "Malta",
-        "Velocity": 223.13,
-        "Altitude": 8260.08
+        "Velocity": 225.49,
+        "Altitude": 10233.66
     },
     {
         "ICAO24": "4d239a",
         "Country": "Malta",
-        "Velocity": 217.65,
-        "Altitude": 11940.54
+        "Velocity": 170.42,
+        "Altitude": 6118.86
+    },
+    {
+        "ICAO24": "3c56f4",
+        "Country": "Germany",
+        "Velocity": 223.19,
+        "Altitude": 8298.18
     },
     {
         "ICAO24": "3c56f2",
         "Country": "Germany",
-        "Velocity": 230.3,
-        "Altitude": 10728.96
-    },
-    {
-        "ICAO24": "4d2290",
-        "Country": "Malta",
-        "Velocity": 220.68,
-        "Altitude": 11887.2
+        "Velocity": 134.37,
+        "Altitude": 2392.68
     },
     {
         "ICAO24": "4d229d",
         "Country": "Malta",
-        "Velocity": 180.7,
-        "Altitude": 4282.44
+        "Velocity": 10.8,
+        "Altitude": 0
     },
     {
         "ICAO24": "4070e8",
         "Country": "United Kingdom",
-        "Velocity": 230.63,
-        "Altitude": 11628.12
+        "Velocity": 247.98,
+        "Altitude": 11689.08
     },
     {
         "ICAO24": "4c01e2",
         "Country": "Serbia",
-        "Velocity": 223.33,
-        "Altitude": 10744.2
+        "Velocity": 216.95,
+        "Altitude": 10736.58
     },
     {
         "ICAO24": "4d21d4",
         "Country": "Malta",
-        "Velocity": 231.3,
-        "Altitude": 10751.82
+        "Velocity": 140.6,
+        "Altitude": 2994.66
+    },
+    {
+        "ICAO24": "ae6a32",
+        "Country": "United States",
+        "Velocity": 29.01,
+        "Altitude": 563.88
+    },
+    {
+        "ICAO24": "4d21ef",
+        "Country": "Malta",
+        "Velocity": 140.66,
+        "Altitude": 2682.24
+    },
+    {
+        "ICAO24": "4d21ea",
+        "Country": "Malta",
+        "Velocity": 212.1,
+        "Altitude": 12016.74
     },
     {
         "ICAO24": "ae6a34",
         "Country": "United States",
-        "Velocity": 61.36,
-        "Altitude": 822.96
+        "Velocity": 50.67,
+        "Altitude": 624.84
     },
     {
         "ICAO24": "4cad86",
         "Country": "Ireland",
-        "Velocity": 216.61,
-        "Altitude": 11628.12
+        "Velocity": 210.57,
+        "Altitude": 10995.66
     },
     {
         "ICAO24": "4cad91",
         "Country": "Ireland",
-        "Velocity": 228.51,
-        "Altitude": 12245.34
+        "Velocity": 213.19,
+        "Altitude": 11323.32
     },
     {
-        "ICAO24": "4d21dc",
+        "ICAO24": "3003ad",
+        "Country": "Italy",
+        "Velocity": 209.88,
+        "Altitude": 7612.38
+    },
+    {
+        "ICAO24": "4d2208",
         "Country": "Malta",
-        "Velocity": 212.24,
-        "Altitude": 7970.52
+        "Velocity": 240.02,
+        "Altitude": 12207.24
     },
     {
         "ICAO24": "4d2237",
         "Country": "Malta",
-        "Velocity": 222.49,
-        "Altitude": 11346.18
+        "Velocity": 212.63,
+        "Altitude": 11315.7
     },
     {
         "ICAO24": "4d2239",
         "Country": "Malta",
-        "Velocity": 83.53,
-        "Altitude": 579.12
+        "Velocity": 239.23,
+        "Altitude": 11292.84
     },
     {
         "ICAO24": "3986e6",
         "Country": "France",
-        "Velocity": 223.73,
-        "Altitude": 11262.36
-    },
-    {
-        "ICAO24": "3986e1",
-        "Country": "France",
-        "Velocity": 67.5,
-        "Altitude": 167.64
-    },
-    {
-        "ICAO24": "4d2242",
-        "Country": "Malta",
-        "Velocity": 214.83,
-        "Altitude": 6286.5
+        "Velocity": 221.35,
+        "Altitude": 11277.6
     },
     {
         "ICAO24": "4d2215",
         "Country": "Malta",
-        "Velocity": 260.08,
-        "Altitude": 11308.08
+        "Velocity": 250.58,
+        "Altitude": 11643.36
     },
     {
         "ICAO24": "485a32",
         "Country": "Kingdom of the Netherlands",
-        "Velocity": 219.6,
-        "Altitude": 11993.88
+        "Velocity": 224.04,
+        "Altitude": 11932.92
+    },
+    {
+        "ICAO24": "4d2219",
+        "Country": "Malta",
+        "Velocity": 212.62,
+        "Altitude": 11971.02
+    },
+    {
+        "ICAO24": "485a35",
+        "Country": "Kingdom of the Netherlands",
+        "Velocity": 228.32,
+        "Altitude": 11338.56
     },
     {
         "ICAO24": "4d2223",
         "Country": "Malta",
-        "Velocity": 0,
-        "Altitude": 0
+        "Velocity": 230.89,
+        "Altitude": 9601.2
     },
     {
-        "ICAO24": "3ff39d",
-        "Country": "Germany",
-        "Velocity": 50.07,
-        "Altitude": 678.18
+        "ICAO24": "406015",
+        "Country": "United Kingdom",
+        "Velocity": 255.95,
+        "Altitude": 11010.9
     },
     {
-        "ICAO24": "4d2278",
+        "ICAO24": "4d227b",
         "Country": "Malta",
-        "Velocity": 149.03,
-        "Altitude": 2811.78
-    },
-    {
-        "ICAO24": "4d2274",
-        "Country": "Malta",
-        "Velocity": 226.64,
-        "Altitude": 10675.62
-    },
-    {
-        "ICAO24": "4d227f",
-        "Country": "Malta",
-        "Velocity": 240.1,
-        "Altitude": 11574.78
+        "Velocity": 241.45,
+        "Altitude": 12214.86
     },
     {
         "ICAO24": "3d0e18",
         "Country": "Germany",
-        "Velocity": 72.78,
-        "Altitude": 1310.64
+        "Velocity": 72.08,
+        "Altitude": 1074.42
     },
     {
         "ICAO24": "4d226f",
         "Country": "Malta",
-        "Velocity": 3.86,
+        "Velocity": 221.37,
+        "Altitude": 8763
+    },
+    {
+        "ICAO24": "4d224c",
+        "Country": "Malta",
+        "Velocity": 10.8,
         "Altitude": 0
+    },
+    {
+        "ICAO24": "3c55c2",
+        "Country": "Germany",
+        "Velocity": 217.62,
+        "Altitude": 9707.88
     },
     {
         "ICAO24": "3c55c5",
         "Country": "Germany",
-        "Velocity": 240.69,
-        "Altitude": 8877.3
+        "Velocity": 219.13,
+        "Altitude": 9509.76
     },
     {
         "ICAO24": "4d224e",
         "Country": "Malta",
-        "Velocity": 151.35,
-        "Altitude": 3185.16
+        "Velocity": 0.06,
+        "Altitude": 0
     },
     {
         "ICAO24": "3c55c7",
         "Country": "Germany",
-        "Velocity": 134.08,
-        "Altitude": 1584.96
-    },
-    {
-        "ICAO24": "4d2262",
-        "Country": "Malta",
-        "Velocity": 237.44,
-        "Altitude": 9646.92
+        "Velocity": 217.18,
+        "Altitude": 10873.74
     },
     {
         "ICAO24": "4b19ef",
         "Country": "Switzerland",
-        "Velocity": 232.88,
-        "Altitude": 8473.44
+        "Velocity": 244.42,
+        "Altitude": 11033.76
+    },
+    {
+        "ICAO24": "4b19e6",
+        "Country": "Switzerland",
+        "Velocity": 181.06,
+        "Altitude": 4983.48
     },
     {
         "ICAO24": "4b19fc",
         "Country": "Switzerland",
-        "Velocity": 232.45,
-        "Altitude": 9654.54
-    },
-    {
-        "ICAO24": "4b19ff",
-        "Country": "Switzerland",
-        "Velocity": 76.9,
-        "Altitude": 609.6
-    },
-    {
-        "ICAO24": "3d0e9a",
-        "Country": "Germany",
-        "Velocity": 30.91,
-        "Altitude": 114.3
+        "Velocity": 74.09,
+        "Altitude": 327.66
     },
     {
         "ICAO24": "71be29",
         "Country": "Republic of Korea",
-        "Velocity": 182.92,
-        "Altitude": 5379.72
+        "Velocity": 6.94,
+        "Altitude": 0
+    },
+    {
+        "ICAO24": "3d0ddf",
+        "Country": "Germany",
+        "Velocity": 17.84,
+        "Altitude": 68.58
     },
     {
         "ICAO24": "4cac0f",
         "Country": "Ireland",
-        "Velocity": 0,
-        "Altitude": 0
-    },
-    {
-        "ICAO24": "4cac7b",
-        "Country": "Ireland",
-        "Velocity": 223.01,
-        "Altitude": 11902.44
-    },
-    {
-        "ICAO24": "408346",
-        "Country": "United Kingdom",
-        "Velocity": 248.34,
-        "Altitude": 11087.1
-    },
-    {
-        "ICAO24": "40838b",
-        "Country": "United Kingdom",
-        "Velocity": 244.04,
+        "Velocity": 239.3,
         "Altitude": 10454.64
+    },
+    {
+        "ICAO24": "4cac87",
+        "Country": "Ireland",
+        "Velocity": 208.14,
+        "Altitude": 11993.88
+    },
+    {
+        "ICAO24": "40832c",
+        "Country": "United Kingdom",
+        "Velocity": 256.03,
+        "Altitude": 11635.74
     },
     {
         "ICAO24": "40837b",
         "Country": "United Kingdom",
-        "Velocity": 238.69,
-        "Altitude": 11049
-    },
-    {
-        "ICAO24": "40836d",
-        "Country": "United Kingdom",
-        "Velocity": 245.98,
-        "Altitude": 12306.3
+        "Velocity": 252.44,
+        "Altitude": 11384.28
     },
     {
         "ICAO24": "a85cf4",
         "Country": "United States",
-        "Velocity": 71.78,
-        "Altitude": 3230.88
-    },
-    {
-        "ICAO24": "4691c4",
-        "Country": "Greece",
-        "Velocity": 99.54,
-        "Altitude": 1028.7
+        "Velocity": 46.96,
+        "Altitude": 350.52
     },
     {
         "ICAO24": "451d85",
         "Country": "Bulgaria",
-        "Velocity": 213.1,
-        "Altitude": 11986.26
+        "Velocity": 217.18,
+        "Altitude": 8366.76
     },
     {
         "ICAO24": "3ed28d",
         "Country": "Germany",
-        "Velocity": 19.58,
+        "Velocity": 29.47,
         "Altitude": 0
-    },
-    {
-        "ICAO24": "4d2087",
-        "Country": "Malta",
-        "Velocity": 185.06,
-        "Altitude": 5600.7
     },
     {
         "ICAO24": "4d2085",
         "Country": "Malta",
-        "Velocity": 232.25,
-        "Altitude": 11864.34
-    },
-    {
-        "ICAO24": "4081a9",
-        "Country": "United Kingdom",
-        "Velocity": 256.54,
-        "Altitude": 11696.7
+        "Velocity": 219.08,
+        "Altitude": 11902.44
     },
     {
         "ICAO24": "3e1a80",
         "Country": "Germany",
-        "Velocity": 142.08,
-        "Altitude": 9159.24
-    },
-    {
-        "ICAO24": "39d2a2",
-        "Country": "France",
-        "Velocity": 282.92,
-        "Altitude": 11338.56
+        "Velocity": 113.21,
+        "Altitude": 1310.64
     },
     {
         "ICAO24": "4d2096",
         "Country": "Malta",
-        "Velocity": 195.59,
-        "Altitude": 3413.76
-    },
-    {
-        "ICAO24": "3d0cc3",
-        "Country": "Germany",
-        "Velocity": 37.1,
-        "Altitude": 777.24
+        "Velocity": 0,
+        "Altitude": 0
     },
     {
         "ICAO24": "3dd794",
         "Country": "Germany",
-        "Velocity": 67.19,
-        "Altitude": 822.96
+        "Velocity": 66.46,
+        "Altitude": 1211.58
     },
     {
         "ICAO24": "4b191d",
         "Country": "Switzerland",
-        "Velocity": 226.72,
-        "Altitude": 10767.06
+        "Velocity": 139.74,
+        "Altitude": 5151.12
+    },
+    {
+        "ICAO24": "398577",
+        "Country": "France",
+        "Velocity": 222.73,
+        "Altitude": 10721.34
+    },
+    {
+        "ICAO24": "71bf91",
+        "Country": "Republic of Korea",
+        "Velocity": 1.54,
+        "Altitude": 0
     },
     {
         "ICAO24": "40717e",
         "Country": "United Kingdom",
-        "Velocity": 229.52,
-        "Altitude": 10988.04
+        "Velocity": 230.55,
+        "Altitude": 11666.22
     },
     {
-        "ICAO24": "407183",
-        "Country": "United Kingdom",
-        "Velocity": 243.36,
-        "Altitude": 12268.2
+        "ICAO24": "3ff182",
+        "Country": "Germany",
+        "Velocity": 37.91,
+        "Altitude": 647.7
+    },
+    {
+        "ICAO24": "498b21",
+        "Country": "Czech Republic",
+        "Velocity": 59.15,
+        "Altitude": 594.36
+    },
+    {
+        "ICAO24": "4692d2",
+        "Country": "Greece",
+        "Velocity": 231.47,
+        "Altitude": 8100.06
+    },
+    {
+        "ICAO24": "4692d1",
+        "Country": "Greece",
+        "Velocity": 109.38,
+        "Altitude": 1051.56
     },
     {
         "ICAO24": "4692cc",
         "Country": "Greece",
-        "Velocity": 183.66,
-        "Altitude": 6842.76
-    },
-    {
-        "ICAO24": "3c66ea",
-        "Country": "Germany",
-        "Velocity": 13.89,
-        "Altitude": 0
+        "Velocity": 84.93,
+        "Altitude": 1249.68
     },
     {
         "ICAO24": "3ff15c",
         "Country": "Germany",
-        "Velocity": 48.73,
-        "Altitude": 434.34
+        "Velocity": 46.91,
+        "Altitude": 601.98
     },
     {
-        "ICAO24": "4848bc",
-        "Country": "Kingdom of the Netherlands",
-        "Velocity": 24.2,
-        "Altitude": 0
+        "ICAO24": "4d201d",
+        "Country": "Malta",
+        "Velocity": 218.55,
+        "Altitude": 11407.14
     },
     {
         "ICAO24": "4d202d",
         "Country": "Malta",
-        "Velocity": 180.64,
-        "Altitude": 7307.58
-    },
-    {
-        "ICAO24": "3c66b0",
-        "Country": "Germany",
-        "Velocity": 122.83,
-        "Altitude": 1600.2
+        "Velocity": 178.41,
+        "Altitude": 7322.82
     },
     {
         "ICAO24": "3c66a4",
         "Country": "Germany",
-        "Velocity": 114.53,
-        "Altitude": 1958.34
+        "Velocity": 226.62,
+        "Altitude": 9494.52
     },
     {
         "ICAO24": "3c66ab",
         "Country": "Germany",
-        "Velocity": 212.68,
-        "Altitude": 9494.52
-    },
-    {
-        "ICAO24": "3c66b6",
-        "Country": "Germany",
-        "Velocity": 144.53,
-        "Altitude": 3147.06
-    },
-    {
-        "ICAO24": "4b9065",
-        "Country": "Turkey",
-        "Velocity": 70.89,
-        "Altitude": 160.02
+        "Velocity": 149.5,
+        "Altitude": 2385.06
     },
     {
         "ICAO24": "4082cc",
         "Country": "United Kingdom",
-        "Velocity": 254.82,
-        "Altitude": 11628.12
-    },
-    {
-        "ICAO24": "4082cb",
-        "Country": "United Kingdom",
-        "Velocity": 239.86,
-        "Altitude": 11064.24
+        "Velocity": 254.17,
+        "Altitude": 11681.46
     },
     {
         "ICAO24": "4b17f8",
@@ -3366,33 +3252,27 @@
         "Altitude": 0
     },
     {
-        "ICAO24": "4b17e6",
-        "Country": "Switzerland",
-        "Velocity": 156.01,
-        "Altitude": 3307.08
-    },
-    {
-        "ICAO24": "4b17fb",
-        "Country": "Switzerland",
-        "Velocity": 3.6,
-        "Altitude": 0
+        "ICAO24": "458667",
+        "Country": "Denmark",
+        "Velocity": 232.75,
+        "Altitude": 12184.38
     },
     {
         "ICAO24": "398562",
         "Country": "France",
-        "Velocity": 189.45,
-        "Altitude": 6957.06
+        "Velocity": 213.51,
+        "Altitude": 10713.72
     },
     {
         "ICAO24": "47bfb3",
         "Country": "Norway",
-        "Velocity": 237.07,
-        "Altitude": 11597.64
+        "Velocity": 218.15,
+        "Altitude": 11628.12
     },
     {
-        "ICAO24": "4b1903",
-        "Country": "Switzerland",
-        "Velocity": 110.58,
-        "Altitude": 1310.64
+        "ICAO24": "a",
+        "Country": "b",
+        "Velocity": 1.0,
+        "Altitude": 2.0
     }
 ]

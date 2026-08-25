@@ -1,10 +1,10 @@
 import json
 
-from src.adding_a_plane import Adding_Plane
+from src.adding_a_plane import AddingPlane
 
 
 def test_write_file_add() -> None:
-    adding_plane = Adding_Plane("aeroplanes.json", [])
+    adding_plane = AddingPlane("aeroplanes.json", [])
     path = adding_plane.path
     with open(path, "r", encoding="utf-8") as f:
         data_old = json.load(f)

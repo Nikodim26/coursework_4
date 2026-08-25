@@ -8,8 +8,8 @@ from src.api_adapter import APIAdapter
 logger = logging.getLogger(__name__)
 
 
-class Api_Aeroplanes(APIAdapter):
-    '''Класс объекта, отвечающего за получение информации о самолетах в заданном "квадрате"'''
+class ApiAeroplanes(APIAdapter):
+    """Класс объекта, отвечающего за получение информации о самолетах в заданном "квадрате\""""
 
     def __init__(self, coordinates: dict) -> None:
         super().__init__()

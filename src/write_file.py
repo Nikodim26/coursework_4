@@ -3,12 +3,12 @@ import logging
 from pathlib import Path
 
 from src.airplane import Airplane
-from src.working_with_files import Working_With_Files
+from src.working_with_files import WorkingWithFiles
 
 logger = logging.getLogger(__name__)
 
 
-class Write_File(Working_With_Files):
+class WriteFile(WorkingWithFiles):
     """Класс для объекта, записывающего информацию о самолетах в файл"""
 
     def __init__(self, file: str, data: list) -> None:

@@ -2,13 +2,13 @@ import json
 import logging
 from pathlib import Path
 
-from src.adding_a_plane import Adding_Plane
+from src.adding_a_plane import AddingPlane
 from src.airplane import Airplane
-from src.api_aeroplanes import Api_Aeroplanes
-from src.api_coord import Api_Coord
+from src.api_aeroplanes import ApiAeroplanes
+from src.api_coord import ApiCoord
 from src.interpreter import translate_text
-from src.receipt_by_criterion import Receipt_by_Criterion
-from src.write_file import Write_File
+from src.receipt_by_criterion import ReceiptByCriterion
+from src.write_file import WriteFile
 
 log_path = Path(__file__).resolve().parent.parent / "logs" / "main.log"
 logging.basicConfig(
@@ -27,20 +27,20 @@ def working_with_the_user() -> None:
 
     while True:
         country = input("Укажите страну, в пространстве которой идет поиск самолетов: ")
-        api_coord = Api_Coord(country)
+        api_coord = ApiCoord(country)
         coordinates = api_coord.coordinates
         if coordinates:
             break
         print("Нет сведений")
 
-    api_aeroplanes = Api_Aeroplanes(coordinates).list_info
+    api_aeroplanes = ApiAeroplanes(coordinates).list_info
 
-    write_file = Write_File("aeroplanes.json", api_aeroplanes)
+    write_file = WriteFile("aeroplanes.json", api_aeroplanes)
     write_file.write_file()
     logger.info("Добавлена информация о самолетах в файл")
     print("Добавлена информация о самолетах в файл")
 
-    receipt_by_criterion = Receipt_by_Criterion("aeroplanes.json", [])
+    receipt_by_criterion = ReceiptByCriterion("aeroplanes.json", [])
     criterion = []
     while True:
         country = input("Самолеты какой страны показать (все/страна)? [ВСЕ]: ")
@@ -61,20 +61,20 @@ def working_with_the_user() -> None:
 
 
 def additional_information():
-    receipt_by_criterion = Receipt_by_Criterion("aeroplanes.json", [])
+    receipt_by_criterion = ReceiptByCriterion("aeroplanes.json", [])
 
-    response = input('Хотите добавить свой самолет в общий список (да/нет)? [ДА]')
+    response = input("Хотите добавить свой самолет в общий список (да/нет)? [ДА]")
     print()
-    if response == "" or response.lower() == 'да':
-        characteristics = input('Введите данные через запятую (номер,страна,скорость м/с,высота м): ').split(',')
+    if response == "" or response.lower() == "да":
+        characteristics = input("Введите данные через запятую (номер,страна,скорость м/с,высота м): ").split(",")
         characteristics[2] = float(characteristics[2])
         characteristics[3] = float(characteristics[3])
 
-        adding_plane = Adding_Plane("aeroplanes.json", [])
+        adding_plane = AddingPlane("aeroplanes.json", [])
         adding_plane.write_file_add(characteristics)
 
-    response = input('Показать наиболее быстрый и высоколетящий самолет (да/нет)? [ДА]')
-    if response == "" or response.lower() == 'да':
+    response = input("Показать наиболее быстрый и высоколетящий самолет (да/нет)? [ДА]")
+    if response == "" or response.lower() == "да":
         # Выявление рекордсмена по высоте и скорости
         aeroplane_max = Airplane(" ", " ", 0, 0)
         aeroplanes_data = receipt_by_criterion.obtaining_information_on_the_criteria(["All", "All", "All", "All"])
@@ -87,10 +87,10 @@ def additional_information():
         print("Самый быстрый и высоколетящий самолет")
         print(aeroplane_max)
 
-    response = input('Показать самолеты на земле (да/нет)? [ДА]')
-    if response == "" or response.lower() == 'да':
+    response = input("Показать самолеты на земле (да/нет)? [ДА]")
+    if response == "" or response.lower() == "да":
         print("Самолеты на земле")
-        print(json.dumps(receipt_by_criterion.get_by_criterion(["All", "All", 0, 0]), indent=4))
+        print(json.dumps(receipt_by_criterion.obtaining_information_on_the_criteria(["All", "All", 0, 0]), indent=4))
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from src.receipt_by_criterion import Receipt_by_Criterion
+from src.receipt_by_criterion import ReceiptByCriterion
 
 
 @pytest.fixture
@@ -17,7 +17,7 @@ def fixture_write_file() -> list:
 
 @pytest.fixture
 def fixture_get_by_criterion() -> list:
-    receipt_by_criterion = Receipt_by_Criterion("1.json", [])
+    receipt_by_criterion = ReceiptByCriterion("1.json", [])
     data_ = [
         {"ICAO24": "3d23da", "Country": "Germany", "Velocity": 72.7, "Altitude": 388.62},
         {"ICAO24": "39de41", "Country": "France", "Velocity": 236.75, "Altitude": 12146.28},
