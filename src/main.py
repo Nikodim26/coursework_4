@@ -24,6 +24,7 @@ logger = logging.getLogger(__name__)
 
 def working_with_the_user() -> None:
     """Предоставляет диалог с пользователем"""
+
     while True:
         country = input("Укажите страну, в пространстве которой идет поиск самолетов: ")
         api_coord = Api_Coord(country)

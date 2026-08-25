@@ -1,6 +1,5 @@
 import json
 
-import pytest
 
 from src.adding_a_plane import Adding_Plane
 
@@ -20,3 +19,4 @@ def test_write_file_add() -> None:
         json.dump(data_old, f, indent=4, ensure_ascii=False)
 
     assert len(data_old) < len(data_new)
+    del adding_plane
