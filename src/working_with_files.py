@@ -17,5 +17,5 @@ class Working_With_Files(ABC):
         pass
 
     @abstractmethod
-    def get_by_criterion(self) -> None:
+    def obtaining_information_on_the_criteria(self) -> None:
         pass

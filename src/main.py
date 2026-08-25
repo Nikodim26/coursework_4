@@ -52,7 +52,7 @@ def working_with_the_user() -> None:
         velocity = input("Укажите максимальную скорость (все/скорость,м/с)? [ВСЕ]: ")
         criterion.append("All" if velocity == "" else velocity)
 
-        aeroplanes = receipt_by_criterion.get_by_criterion(criterion)
+        aeroplanes = receipt_by_criterion.obtaining_information_on_the_criteria(criterion)
         if aeroplanes:
             print(json.dumps(aeroplanes, indent=4))
             print()
@@ -77,7 +77,7 @@ def additional_information():
     if response == "" or response.lower() == 'да':
         # Выявление рекордсмена по высоте и скорости
         aeroplane_max = Airplane(" ", " ", 0, 0)
-        aeroplanes_data = receipt_by_criterion.get_by_criterion(["All", "All", "All", "All"])
+        aeroplanes_data = receipt_by_criterion.obtaining_information_on_the_criteria(["All", "All", "All", "All"])
 
         for dt in aeroplanes_data:
             aeroplane = Airplane(dt["ICAO24"], dt["Country"], dt["Velocity"], dt["Altitude"])

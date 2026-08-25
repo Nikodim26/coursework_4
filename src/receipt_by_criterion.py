@@ -15,8 +15,8 @@ class Receipt_by_Criterion(Working_With_Files):
         super().__init__(file, data)
         self.path = Path(__file__).resolve().parent.parent / "data" / file
 
-    def get_by_criterion(self, criteria: list) -> list:
-        """Получает информацию о самолете по критерию"""
+    def obtaining_information_on_the_criteria(self, criteria: list) -> list:
+        """Получает информацию о самолете по критериям"""
 
         try:
             with open(self.path, "r", encoding="utf-8") as f:
