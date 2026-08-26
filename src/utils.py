@@ -18,10 +18,34 @@ def translate_text(text: str) -> Any:
     return text.title()
 
 
-def obtaining_information_on_the_criteria(file, criteria: list) -> list:
+def write_file(self) -> None:
+    """Производит запись о самолетах в файл"""
+    aeroplanes_list = []
+
+    for dt in self.data:
+        try:
+            aeroplane = Airplane(dt[0], dt[2], dt[9], dt[13])
+
+            aeroplanes_list.append(
+                {
+                    "ICAO24": aeroplane.ICAO24,
+                    "Country": aeroplane.Country_of_registration,
+                    "Velocity": aeroplane.velocity,
+                    "Altitude": aeroplane.geo_altitude,
+                }
+            )
+            with open(self.path, "w", encoding="utf-8") as f:
+                json.dump(aeroplanes_list, f, indent=4, ensure_ascii=False)
+
+        except Exception as e:
+            logger.error(e)
+
+    logger.info('Создана запись данных самолетов в заданном "квадрате" в файл')
+
+
+def obtaining_information_on_the_criteria(path_file, criteria: list) -> list:
     """Получает информацию о самолете по критериям"""
 
-    path_file = Path(__file__).resolve().parent.parent / "data" / file
     try:
         with open(path_file, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -34,14 +58,43 @@ def obtaining_information_on_the_criteria(file, criteria: list) -> list:
                 result = sorted(result, key=lambda x: x["Velocity"], reverse=True)[: int(criteria[1])]
 
             if criteria[2] != "All":
-                result = [
-                    dt
-                    for dt in result
-                    if dt["Altitude"] <= int(criteria[2]) and dt["Velocity"] <= int(criteria[2])
-                ]
+                result = [dt for dt in result if
+                          dt["Altitude"] <= int(criteria[2]) and dt["Velocity"] <= int(criteria[2])]
 
             return result
 
     except Exception as e:
         logger.error(e)
     return []
+
+
+def write_file_add(self, args: list) -> None:
+    """Добавляет информацию о новом самолете в файл"""
+
+    try:
+        new_aeroplane = Airplane(*args)
+        aeroplane = {
+            "ICAO24": new_aeroplane.ICAO24,
+            "Country": new_aeroplane.Country_of_registration,
+            "Velocity": new_aeroplane.velocity,
+            "Altitude": new_aeroplane.geo_altitude,
+        }
+
+        with open(self.path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if aeroplane not in data:
+            data.append(aeroplane)
+        else:
+            raise ValueError("Есть уже такой самолет")
+
+        with open(self.path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+
+        logger.info("Добавлена информация о новом самолете в файл")
+        print("Добавлена информация о новом самолете\n")
+
+    except ValueError as e:
+        print(e)
+
+    except Exception as e:
+        logger.error(e)
