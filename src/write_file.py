@@ -43,5 +43,5 @@ class WriteFile(WorkingWithFiles):
     def write_file_add(self) -> None:
         pass
 
-    def obtaining_information_on_the_criteria(self) -> None:
+    def remove_from_file(self) -> None:
         pass

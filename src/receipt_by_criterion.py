@@ -1,4 +1,3 @@
-import json
 import logging
 from pathlib import Path
 
@@ -20,4 +19,7 @@ class ReceiptByCriterion(WorkingWithFiles):
         pass
 
     def write_file_add(self) -> None:
+        pass
+
+    def remove_from_file(self) -> None:
         pass

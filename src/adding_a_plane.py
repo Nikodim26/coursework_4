@@ -49,5 +49,5 @@ class AddingPlane(WorkingWithFiles):
     def write_file(self) -> None:
         pass
 
-    def obtaining_information_on_the_criteria(self) -> None:
+    def remove_from_file(self) -> None:
         pass

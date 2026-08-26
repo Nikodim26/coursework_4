@@ -6,9 +6,8 @@ from src.adding_a_plane import AddingPlane
 from src.airplane import Airplane
 from src.api_aeroplanes import ApiAeroplanes
 from src.api_coord import ApiCoord
-from src.interpreter import translate_text
-from src.receipt_by_criterion import ReceiptByCriterion
 from src.write_file import WriteFile
+from utils import translate_text, obtaining_information_on_the_criteria
 
 log_path = Path(__file__).resolve().parent.parent / "logs" / "main.log"
 logging.basicConfig(
@@ -40,7 +39,6 @@ def working_with_the_user() -> None:
     logger.info("Добавлена информация о самолетах в файл")
     print("Добавлена информация о самолетах в файл")
 
-    receipt_by_criterion = ReceiptByCriterion("aeroplanes.json", [])
     criterion = []
     while True:
         country = input("Самолеты какой страны показать (все/страна)? [ВСЕ]: ")
@@ -52,7 +50,7 @@ def working_with_the_user() -> None:
         velocity = input("Укажите максимальную скорость (все/скорость,м/с)? [ВСЕ]: ")
         criterion.append("All" if velocity == "" else velocity)
 
-        aeroplanes = receipt_by_criterion.obtaining_information_on_the_criteria(criterion)
+        aeroplanes = obtaining_information_on_the_criteria("aeroplanes.json",criterion)
         if aeroplanes:
             print(json.dumps(aeroplanes, indent=4))
             print()
@@ -61,8 +59,6 @@ def working_with_the_user() -> None:
 
 
 def additional_information():
-    receipt_by_criterion = ReceiptByCriterion("aeroplanes.json", [])
-
     response = input("Хотите добавить свой самолет в общий список (да/нет)? [ДА]")
     print()
     if response == "" or response.lower() == "да":
@@ -77,7 +73,7 @@ def additional_information():
     if response == "" or response.lower() == "да":
         # Выявление рекордсмена по высоте и скорости
         aeroplane_max = Airplane(" ", " ", 0, 0)
-        aeroplanes_data = receipt_by_criterion.obtaining_information_on_the_criteria(["All", "All", "All", "All"])
+        aeroplanes_data = obtaining_information_on_the_criteria("aeroplanes.json",["All", "All", "All", "All"])
 
         for dt in aeroplanes_data:
             aeroplane = Airplane(dt["ICAO24"], dt["Country"], dt["Velocity"], dt["Altitude"])
@@ -90,7 +86,7 @@ def additional_information():
     response = input("Показать самолеты на земле (да/нет)? [ДА]")
     if response == "" or response.lower() == "да":
         print("Самолеты на земле")
-        print(json.dumps(receipt_by_criterion.obtaining_information_on_the_criteria(["All", "All", 0, 0]), indent=4))
+        print(json.dumps(obtaining_information_on_the_criteria("aeroplanes.json",["All", "All", 0, 0]), indent=4))
 
 
 if __name__ == "__main__":

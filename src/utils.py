@@ -1,5 +1,6 @@
 import json
 import logging
+from pathlib import Path
 from typing import Any
 
 from translate import Translator
@@ -17,11 +18,12 @@ def translate_text(text: str) -> Any:
     return text.title()
 
 
-def obtaining_information_on_the_criteria(self, criteria: list) -> list:
+def obtaining_information_on_the_criteria(file, criteria: list) -> list:
     """Получает информацию о самолете по критериям"""
 
+    path_file = Path(__file__).resolve().parent.parent / "data" / file
     try:
-        with open(self.path, "r", encoding="utf-8") as f:
+        with open(path_file, "r", encoding="utf-8") as f:
             data = json.load(f)
 
             result = data if criteria[0] == "All" else [dt for dt in data if dt["Country"] == criteria[0]]
