@@ -1,5 +1,9 @@
+from typing import Any
+
 from src.airplane import Airplane
-from src.utils import obtaining_information_on_the_criteria, write_file_add, remove_from_file
+from src.utils import obtaining_information_on_the_criteria
+from src.utils import remove_from_file
+from src.utils import write_file_add
 from src.working_with_files import WorkingWithFiles
 
 

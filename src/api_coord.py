@@ -1,5 +1,7 @@
 from typing import Any
+
 import requests
+
 from src.api_adapter import APIAdapter
 
 
@@ -33,8 +35,10 @@ class ApiCoord(APIAdapter):
                     return result
 
         except Exception as e:
+            print(e)
             return {}
 
+
 if __name__ == "__main__":
-    a=ApiCoord('германия')
+    a = ApiCoord("германия")
     print(a.coordinates)

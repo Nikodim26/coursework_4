@@ -46,7 +46,7 @@ def write_file(file: str, api_airplanes: ApiAeroplanes) -> None:
         print("Добавлена информация о самолетах в файл\n")
 
 
-def obtaining_information_on_the_criteria(path_file: str, criteria: list) -> list:
+def obtaining_information_on_the_criteria(path_file: Path, criteria: list) -> list:
     """Получает информацию о самолете по критериям"""
 
     try:
@@ -61,18 +61,19 @@ def obtaining_information_on_the_criteria(path_file: str, criteria: list) -> lis
                 result = sorted(result, key=lambda x: x["Velocity"], reverse=True)[: int(criteria[1])]
 
             if criteria[2] != "All":
-                result = [dt for dt in result if
-                          dt["Altitude"] <= int(criteria[2]) and dt["Velocity"] <= int(criteria[2])]
+                result = [
+                    dt for dt in result if dt["Altitude"] <= int(criteria[2]) and dt["Velocity"] <= int(criteria[2])
+                ]
 
             return result
 
     except Exception:
-        print('Ошибка чтения файла данных')
+        print("Ошибка чтения файла данных")
 
     return []
 
 
-def write_file_add(path_file: str, airplane: Airplane) -> None:
+def write_file_add(path_file: Path, airplane: Airplane) -> None:
     """Добавляет информацию о новом самолете в файл"""
 
     try:
@@ -102,12 +103,12 @@ def write_file_add(path_file: str, airplane: Airplane) -> None:
         print(e)
 
 
-def remove_from_file(path_file: str, criteria: list) -> None:
+def remove_from_file(path_file: Path, criteria: list) -> None:
 
     with open(path_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    data = [dt for dt in data if not dt["Country"] in criteria ]
+    data = [dt for dt in data if not dt["Country"] in criteria]
 
     with open(path_file, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)

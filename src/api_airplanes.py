@@ -1,10 +1,12 @@
 from typing import Any
+
 import requests
+
 from src.api_adapter import APIAdapter
 
 
 class ApiAeroplanes(APIAdapter):
-    """Класс объекта, отвечающего за получение информации о самолетах в заданном "квадрате\""""
+    """Класс объекта, отвечающего за получение информации о самолетах в заданном "квадрате\" """
 
     def __init__(self, coordinates: dict) -> None:
         super().__init__()
@@ -12,7 +14,7 @@ class ApiAeroplanes(APIAdapter):
         self.url = "https://opensky-network.org/api/states/all?"
         self.list_info = self.obtaining_information()
 
-    def obtaining_information(self) -> Any:
+    def obtaining_information(self) -> list | None:
         """Получение информации о самолетах в координатах страны"""
 
         try:
@@ -22,4 +24,5 @@ class ApiAeroplanes(APIAdapter):
                     return response.json()["states"]
 
         except Exception as e:
+            print(e)
             return []
