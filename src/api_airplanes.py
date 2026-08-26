@@ -1,11 +1,6 @@
-import logging
 from typing import Any
-
 import requests
-
 from src.api_adapter import APIAdapter
-
-logger = logging.getLogger(__name__)
 
 
 class ApiAeroplanes(APIAdapter):
@@ -22,12 +17,9 @@ class ApiAeroplanes(APIAdapter):
 
         try:
             for i in range(3):
-                logger.info(f"Делаю запрос - {i + 1} попытка")
                 response = requests.get(url=self.url, params=self.coordinates)
                 if str(response.status_code)[0] == "2":
-                    logger.info(f"Ответ получен: код {response.status_code}")
                     return response.json()["states"]
 
         except Exception as e:
-            logger.error(e)
             return []

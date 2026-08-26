@@ -1,6 +1,6 @@
 from unittest.mock import patch
 
-from src.api_aeroplanes import ApiAeroplanes
+from src.api_airplanes import ApiAeroplanes
 
 
 def test_create_object(fixture_coord) -> None:

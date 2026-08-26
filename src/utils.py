@@ -1,11 +1,11 @@
 import json
-import logging
 from pathlib import Path
 from typing import Any
 
 from translate import Translator
 
-logger = logging.getLogger(__name__)
+from src.airplane import Airplane
+from src.api_airplanes import ApiAeroplanes
 
 
 def translate_text(text: str) -> Any:
@@ -18,11 +18,13 @@ def translate_text(text: str) -> Any:
     return text.title()
 
 
-def write_file(self) -> None:
+def write_file(file: str, api_airplanes: ApiAeroplanes) -> None:
     """Производит запись о самолетах в файл"""
+
+    path_file = Path(__file__).resolve().parent.parent / "data" / file
     aeroplanes_list = []
 
-    for dt in self.data:
+    for dt in api_airplanes.list_info:
         try:
             aeroplane = Airplane(dt[0], dt[2], dt[9], dt[13])
 
@@ -34,16 +36,17 @@ def write_file(self) -> None:
                     "Altitude": aeroplane.geo_altitude,
                 }
             )
-            with open(self.path, "w", encoding="utf-8") as f:
-                json.dump(aeroplanes_list, f, indent=4, ensure_ascii=False)
+        except Exception:
+            print("Не добавлена информация о самолетах в файл")
 
-        except Exception as e:
-            logger.error(e)
+    if aeroplanes_list:
+        with open(path_file, "w", encoding="utf-8") as f:
+            json.dump(aeroplanes_list, f, indent=4, ensure_ascii=False)
 
-    logger.info('Создана запись данных самолетов в заданном "квадрате" в файл')
+        print("Добавлена информация о самолетах в файл\n")
 
 
-def obtaining_information_on_the_criteria(path_file, criteria: list) -> list:
+def obtaining_information_on_the_criteria(path_file: str, criteria: list) -> list:
     """Получает информацию о самолете по критериям"""
 
     try:
@@ -63,38 +66,48 @@ def obtaining_information_on_the_criteria(path_file, criteria: list) -> list:
 
             return result
 
-    except Exception as e:
-        logger.error(e)
+    except Exception:
+        print('Ошибка чтения файла данных')
+
     return []
 
 
-def write_file_add(self, args: list) -> None:
+def write_file_add(path_file: str, airplane: Airplane) -> None:
     """Добавляет информацию о новом самолете в файл"""
 
     try:
-        new_aeroplane = Airplane(*args)
-        aeroplane = {
-            "ICAO24": new_aeroplane.ICAO24,
-            "Country": new_aeroplane.Country_of_registration,
-            "Velocity": new_aeroplane.velocity,
-            "Altitude": new_aeroplane.geo_altitude,
+        airplane_ = {
+            "ICAO24": airplane.ICAO24,
+            "Country": airplane.Country_of_registration,
+            "Velocity": airplane.velocity,
+            "Altitude": airplane.geo_altitude,
         }
 
-        with open(self.path, "r", encoding="utf-8") as f:
+        with open(path_file, "r", encoding="utf-8") as f:
             data = json.load(f)
-        if aeroplane not in data:
-            data.append(aeroplane)
+        if airplane_ not in data:
+            data.append(airplane_)
         else:
             raise ValueError("Есть уже такой самолет")
 
-        with open(self.path, "w", encoding="utf-8") as f:
+        with open(path_file, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
 
-        logger.info("Добавлена информация о новом самолете в файл")
         print("Добавлена информация о новом самолете\n")
 
     except ValueError as e:
         print(e)
 
     except Exception as e:
-        logger.error(e)
+        print(e)
+
+
+def remove_from_file(path_file: str, criteria: list) -> None:
+
+    with open(path_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    data = [dt for dt in data if not dt["Country"] in criteria ]
+
+    with open(path_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)

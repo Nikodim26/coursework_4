@@ -1,18 +1,19 @@
-from src.utils import obtaining_information_on_the_criteria, write_file
+from src.airplane import Airplane
+from src.utils import obtaining_information_on_the_criteria, write_file_add, remove_from_file
 from src.working_with_files import WorkingWithFiles
 
 
 class WriteAddDel(WorkingWithFiles):
     """Класс для объекта, оперирующего с данными в файле"""
 
-    def __init__(self, file: str, args: list) -> None:
-        super().__init__(file,args)
+    def __init__(self, file: str) -> None:
+        super().__init__(file)
 
+    def reading_by_criteria(self, args: list) -> list:
+        return obtaining_information_on_the_criteria(self.path_file, args)
 
-    def reading_by_criteria(self) -> None:
-        obtaining_information_on_the_criteria(self.path_file, self.args)
+    def write_file_add(self, args: Airplane) -> None:
+        write_file_add(self.path_file, args)
 
-
-    def write_file_add(self) -> None:
-
-    def remove_from_file(self) -> None:
+    def remove_from_file(self, args: list) -> None:
+        remove_from_file(self.path_file, args)
