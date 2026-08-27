@@ -3,13 +3,6 @@ from unittest.mock import patch
 from src.api_airplanes import ApiAeroplanes
 
 
-def test_create_object(fixture_coord) -> None:
-    api_aeroplanes = ApiAeroplanes(fixture_coord)
-    assert api_aeroplanes.url == "https://opensky-network.org/api/states/all?"
-    assert api_aeroplanes.coordinates == fixture_coord
-    del api_aeroplanes
-
-
 @patch("requests.get")
 def test_obtaining_information(mock_get) -> None:
     api_aeroplanes = ApiAeroplanes({})

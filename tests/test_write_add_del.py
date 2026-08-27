@@ -1,6 +1,9 @@
-import json
+from src.write_add_del import WriteAddDel
 
-from src.adding_a_plane import AddingPlane
+
+def test_create_object() -> None:
+    write_add_del = WriteAddDel("1.json")
+    assert str(write_add_del.path_file)[-12:] == "\\data\\1.json"
 
 
 def test_write_file_add() -> None:

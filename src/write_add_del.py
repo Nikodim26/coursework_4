@@ -1,5 +1,3 @@
-from typing import Any
-
 from src.airplane import Airplane
 from src.utils import obtaining_information_on_the_criteria
 from src.utils import remove_from_file

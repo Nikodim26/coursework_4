@@ -20,6 +20,7 @@ def working_with_the_user() -> None:
         print("Нет сведений")
 
     api_aeroplanes = ApiAeroplanes(coordinates)
+    print(api_aeroplanes)
     write_file("aeroplanes.json", api_aeroplanes)
 
     # Начинаем работать с данными

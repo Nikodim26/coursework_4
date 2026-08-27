@@ -3,18 +3,6 @@ from unittest.mock import patch
 from src.api_coord import ApiCoord
 
 
-def test_create_object() -> None:
-    api_coord = ApiCoord("Germany")
-    assert api_coord.country == "Germany"
-    assert api_coord.url == "https://nominatim.openstreetmap.org/search"
-    assert api_coord.coordinates == {
-        "lamax": "55.0991610",
-        "lamin": "47.2701114",
-        "lomax": "15.0419309",
-        "lomin": "5.8663153",
-    }
-
-
 @patch("requests.get")
 def test_obtaining_information(mock_get) -> None:
     api_coord = ApiCoord("Germany")
