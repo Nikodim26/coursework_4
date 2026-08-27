@@ -22,7 +22,7 @@ class WriteAddDel(WorkingWithFiles):
                 result = sorted(result, key=lambda x: x["Velocity"], reverse=True)
 
                 if criteria[1] != "All" and len(result) > int(criteria[1]):
-                    result = sorted(result, key=lambda x: x["Velocity"], reverse=True)[: int(criteria[1])]
+                    result = result[: int(criteria[1])]
 
                 if criteria[2] != "All":
                     result = [
@@ -69,6 +69,7 @@ class WriteAddDel(WorkingWithFiles):
 
     def remove_from_file(self, criteria: list) -> None:
         """Удаляет данные о самолетах определенных стран регистрации"""
+
         with open(self.path_file, "r", encoding="utf-8") as f:
             data = json.load(f)
 

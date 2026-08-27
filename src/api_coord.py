@@ -22,7 +22,7 @@ class ApiCoord(APIAdapter):
 
         try:
             for i in range(3):
-                response = requests.get(url=self.url, params=params_nominatim, headers=headers_nominatim)
+                response = requests.get(url=self.url, params=params_nominatim, headers=headers_nominatim, timeout=10)
                 if str(response.status_code)[0] == "2":
                     geo_coordinates = response.json()[0].get("boundingbox")
 

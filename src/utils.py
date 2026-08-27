@@ -5,7 +5,6 @@ from typing import Any
 from translate import Translator
 
 from src.airplane import Airplane
-from src.api_airplanes import ApiAeroplanes
 
 
 def translate_text(text: str) -> Any:
@@ -18,13 +17,13 @@ def translate_text(text: str) -> Any:
     return text.title()
 
 
-def write_file(file: str, api_airplanes: ApiAeroplanes) -> None:
+def write_file(file: str, api_airplanes: list) -> None:
     """Производит запись о самолетах в файл"""
 
     path_file = Path(__file__).resolve().parent.parent / "data" / file
     aeroplanes_list = []
 
-    for dt in api_airplanes.list_info:
+    for dt in api_airplanes:
         try:
             aeroplane = Airplane(dt[0], dt[2], dt[9], dt[13])
 
@@ -36,7 +35,7 @@ def write_file(file: str, api_airplanes: ApiAeroplanes) -> None:
                     "Altitude": aeroplane.geo_altitude,
                 }
             )
-        except Exception:
+        except ValueError:
             print("Не добавлена информация о самолетах в файл")
 
     if aeroplanes_list:

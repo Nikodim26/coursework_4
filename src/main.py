@@ -15,22 +15,22 @@ def working_with_the_user() -> None:
         country = input("Укажите страну, в пространстве которой идет поиск самолетов: ")
         api_coord = ApiCoord(country)
         coordinates = api_coord.coordinates
+        # coordinates={"lamax": "55.0991610", "lamin": "47.2701114", "lomax": "15.0419309", "lomin": "5.8663153"} # для тестирования работы, раз уж недоступен ресурс
         if coordinates:
             break
         print("Нет сведений")
 
     api_aeroplanes = ApiAeroplanes(coordinates)
-    print(api_aeroplanes)
-    write_file("aeroplanes.json", api_aeroplanes)
+
+    write_file("aeroplanes.json", api_aeroplanes.list_info)
 
     # Начинаем работать с данными
     write_add_del = WriteAddDel("aeroplanes.json")  # Создаем рабочий объект
 
     # Удаляем данные
-    response = input("Хотите удалить самолеты некоторых стран (да/нет)? [ДА]")
+    response = input("Хотите удалить самолеты некоторых стран (да/нет)? [НЕТ]")
 
-    if response == "" or response.lower() == "да":
-
+    if not (response == "" or response.lower() == "нет"):
         criterion = input("Введите данные через запятую (страна,страна ...): ").split(",")
         criterion = [translate_text(i) for i in criterion]
 
@@ -45,11 +45,11 @@ def working_with_the_user() -> None:
         quantity = input("Какое количество самых быстрых самолетов показать (все/N)? [ВСЕ]: ")
         criterion.append(quantity if quantity != "" else "All")
 
-        height = input('Укажите "потолок" (все/высота,м)? [ВСЕ]: ')
-        criterion.append("All" if height == "" else height)
-
         velocity = input("Укажите максимальную скорость (все/скорость,м/с)? [ВСЕ]: ")
         criterion.append("All" if velocity == "" else velocity)
+
+        height = input('Укажите "потолок" (все/высота,м)? [ВСЕ]: ')
+        criterion.append("All" if height == "" else height)
 
         airplanes = write_add_del.reading_by_criteria(criterion)
 
@@ -67,10 +67,9 @@ def working_with_the_user() -> None:
 
         characteristics = [(float(i) if i[0].isdigit() else i) for i in characteristics]
 
-    write_add_del.write_file_add(Airplane(*characteristics))
+        write_add_del.write_file_add(Airplane(*characteristics))
 
-
-    # Получаем из того, что осталось
+    # Получаем из общего списка без удаленных специально
     response = input("Показать наиболее быстрый и высоколетящий самолет (да/нет)? [ДА]")
 
     if response == "" or response.lower() == "да":
@@ -91,6 +90,7 @@ def working_with_the_user() -> None:
     if response == "" or response.lower() == "да":
         print("Самолеты на земле")
         print(json.dumps(write_add_del.reading_by_criteria(["All", "All", 0, 0]), indent=4))
+
 
 if __name__ == "__main__":
     working_with_the_user()
