@@ -1,7 +1,4 @@
 import json
-from dataclasses import replace
-
-from src import write_add_del
 from src.airplane import Airplane
 from src.api_airplanes import ApiAeroplanes
 from src.api_coord import ApiCoord
@@ -14,51 +11,51 @@ def working_with_the_user() -> None:
     """Предоставляет диалог с пользователем"""
 
     # Подготавливаем данные из API
-    # while True:
-    #     country = input("Укажите страну, в пространстве которой идет поиск самолетов: ")
-    #     api_coord = ApiCoord(country)
-    #     coordinates = api_coord.coordinates
-    #     if coordinates:
-    #         break
-    #     print("Нет сведений")
-    #
-    # api_aeroplanes = ApiAeroplanes(coordinates)
-    # write_file("aeroplanes.json", api_aeroplanes)
-    #
-    # # Начинаем работать с данными
+    while True:
+        country = input("Укажите страну, в пространстве которой идет поиск самолетов: ")
+        api_coord = ApiCoord(country)
+        coordinates = api_coord.coordinates
+        if coordinates:
+            break
+        print("Нет сведений")
+
+    api_aeroplanes = ApiAeroplanes(coordinates)
+    write_file("aeroplanes.json", api_aeroplanes)
+
+    # Начинаем работать с данными
     write_add_del = WriteAddDel("aeroplanes.json")  # Создаем рабочий объект
-    #
-    # # Удаляем данные
-    # response = input("Хотите удалить самолеты некоторых стран (да/нет)? [ДА]")
-    #
-    # if response == "" or response.lower() == "да":
-    #
-    #     criterion = input("Введите данные через запятую (страна,страна ...): ").split(",")
-    #     criterion = [translate_text(i) for i in criterion]
-    #
-    #     write_add_del.remove_from_file(criterion)
-    #
-    # # Читаем данные
-    # criterion = []
-    # while True:
-    #     country = input("Самолеты какой страны показать (все/страна)? [ВСЕ]: ")
-    #     criterion.append(translate_text(country) if country != "" else "All")
-    #
-    #     quantity = input("Какое количество самых быстрых самолетов показать (все/N)? [ВСЕ]: ")
-    #     criterion.append(quantity if quantity != "" else "All")
-    #
-    #     height = input('Укажите "потолок" (все/высота,м)? [ВСЕ]: ')
-    #     criterion.append("All" if height == "" else height)
-    #
-    #     velocity = input("Укажите максимальную скорость (все/скорость,м/с)? [ВСЕ]: ")
-    #     criterion.append("All" if velocity == "" else velocity)
-    #
-    #     airplanes = write_add_del.reading_by_criteria(criterion)
-    #
-    #     if airplanes:
-    #         print(json.dumps(airplanes, indent=4), "\n")
-    #         break
-    #     print("Нет сведений")
+
+    # Удаляем данные
+    response = input("Хотите удалить самолеты некоторых стран (да/нет)? [ДА]")
+
+    if response == "" or response.lower() == "да":
+
+        criterion = input("Введите данные через запятую (страна,страна ...): ").split(",")
+        criterion = [translate_text(i) for i in criterion]
+
+        write_add_del.remove_from_file(criterion)
+
+    # Читаем данные
+    criterion = []
+    while True:
+        country = input("Самолеты какой страны показать (все/страна)? [ВСЕ]: ")
+        criterion.append(translate_text(country) if country != "" else "All")
+
+        quantity = input("Какое количество самых быстрых самолетов показать (все/N)? [ВСЕ]: ")
+        criterion.append(quantity if quantity != "" else "All")
+
+        height = input('Укажите "потолок" (все/высота,м)? [ВСЕ]: ')
+        criterion.append("All" if height == "" else height)
+
+        velocity = input("Укажите максимальную скорость (все/скорость,м/с)? [ВСЕ]: ")
+        criterion.append("All" if velocity == "" else velocity)
+
+        airplanes = write_add_del.reading_by_criteria(criterion)
+
+        if airplanes:
+            print(json.dumps(airplanes, indent=4), "\n")
+            break
+        print("Нет сведений")
 
     # Добавляем данные
     response = input("Хотите добавить свой самолет в общий список (да/нет)? [ДА]")
