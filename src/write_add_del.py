@@ -26,7 +26,9 @@ class WriteAddDel(WorkingWithFiles):
 
                 if criteria[2] != "All":
                     result = [
-                        dt for dt in result if dt["Altitude"] <= int(criteria[2]) and dt["Velocity"] <= int(criteria[2])
+                        dt
+                        for dt in result
+                        if dt["Altitude"] <= int(criteria[2]) and dt["Velocity"] <= int(criteria[2])
                     ]
 
                 return result
@@ -35,7 +37,6 @@ class WriteAddDel(WorkingWithFiles):
             print("Ошибка чтения файла данных")
 
         return []
-
 
     def write_file_add(self, airplane: Airplane) -> None:
         """Добавляет информацию о новом самолете в файл"""
@@ -65,7 +66,6 @@ class WriteAddDel(WorkingWithFiles):
 
         except Exception as e:
             print(e)
-
 
     def remove_from_file(self, criteria: list) -> None:
         """Удаляет данные о самолетах определенных стран регистрации"""

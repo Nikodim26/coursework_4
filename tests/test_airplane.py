@@ -14,7 +14,7 @@ def test_create_object() -> None:
 @pytest.mark.parametrize(
     "data", [["a", "b", -10, 20], ["a", "b", 10, -20], [None, "b", 10, 20], ["a", None, 10, 20], ["a", "b", 0, 20]]
 )
-def test_create_object_err(data) -> None:
+def test_create_object_err(data:list) -> None:
     with pytest.raises(ValueError):
         Airplane(*data)
 

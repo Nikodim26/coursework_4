@@ -1,4 +1,5 @@
 import json
+
 from src.airplane import Airplane
 from src.api_airplanes import ApiAeroplanes
 from src.api_coord import ApiCoord
@@ -15,7 +16,6 @@ def working_with_the_user() -> None:
         country = input("Укажите страну, в пространстве которой идет поиск самолетов: ")
         api_coord = ApiCoord(country)
         coordinates = api_coord.coordinates
-        # coordinates={"lamax": "55.0991610", "lamin": "47.2701114", "lomax": "15.0419309", "lomin": "5.8663153"} # для тестирования работы, раз уж недоступен ресурс
         if coordinates:
             break
         print("Нет сведений")
@@ -62,8 +62,9 @@ def working_with_the_user() -> None:
     response = input("Хотите добавить свой самолет в общий список (да/нет)? [ДА]")
 
     if response == "" or response.lower() == "да":
-        characteristics = input("Введите данные через запятую "
-                                "(номер,страна,скорость м/с,высота м): ").replace(' ', '').split(",")
+        characteristics = (
+            input("Введите данные через запятую " "(номер,страна,скорость м/с,высота м): ").replace(" ", "").split(",")
+        )
 
         characteristics = [(float(i) if i[0].isdigit() else i) for i in characteristics]
 
