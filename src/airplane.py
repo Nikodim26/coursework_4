@@ -25,6 +25,7 @@ class Airplane:
         return self.velocity > other.velocity and self.geo_altitude > other.geo_altitude
 
     def __str__(self) -> str:
+        """Представляет самолет в виде строки"""
         return json.dumps(
             {
                 "ICAO24": self.ICAO24,

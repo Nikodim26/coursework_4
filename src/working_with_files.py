@@ -1,21 +1,25 @@
-from abc import ABC, abstractmethod
+from abc import ABC
+from abc import abstractmethod
+from pathlib import Path
+from typing import Any
+
+from src.airplane import Airplane
 
 
-class Working_With_Files(ABC):
+class WorkingWithFiles(ABC):
     """Шаблон для объектов работающих с данными из файла, характеризующими самолеты"""
 
-    def __init__(self, file: str, data: list) -> None:
-        self.file = file
-        self.data = data
+    def __init__(self, file: str) -> None:
+        self.path_file = Path(__file__).resolve().parent.parent / "data" / file
 
     @abstractmethod
-    def write_file(self) -> None:
+    def reading_by_criteria(self, criteria: list) -> Any:
         pass
 
     @abstractmethod
-    def write_file_add(self) -> None:
+    def write_file_add(self, airplane: Airplane) -> Any:
         pass
 
     @abstractmethod
-    def get_by_criterion(self) -> None:
+    def remove_from_file(self, criteria: list) -> Any:
         pass

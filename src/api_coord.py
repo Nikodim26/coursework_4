@@ -1,14 +1,11 @@
-import logging
 from typing import Any
 
 import requests
 
 from src.api_adapter import APIAdapter
 
-logger = logging.getLogger(__name__)
 
-
-class Api_Coord(APIAdapter):
+class ApiCoord(APIAdapter):
     """Класс объекта, отвечающего за получение координат "квадрата" определенной страны"""
 
     def __init__(self, country: str) -> None:
@@ -25,10 +22,8 @@ class Api_Coord(APIAdapter):
 
         try:
             for i in range(3):
-                logger.info(f"Делаю запрос - {i + 1} попытка")
-                response = requests.get(url=self.url, params=params_nominatim, headers=headers_nominatim)
+                response = requests.get(url=self.url, params=params_nominatim, headers=headers_nominatim, timeout=10)
                 if str(response.status_code)[0] == "2":
-                    logger.info(f"Ответ получен: код {response.status_code}")
                     geo_coordinates = response.json()[0].get("boundingbox")
 
                     result = {
@@ -37,9 +32,13 @@ class Api_Coord(APIAdapter):
                         "lomin": geo_coordinates[2],
                         "lomax": geo_coordinates[3],
                     }
-                    logger.info('Получены координаты "квадрата" поиска самолетов')
                     return result
 
         except Exception as e:
-            logger.error(e)
+            print(e)
             return {}
+
+
+if __name__ == "__main__":
+    a = ApiCoord("германия")
+    print(a.coordinates)
